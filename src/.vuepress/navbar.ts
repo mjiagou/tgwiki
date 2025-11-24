@@ -146,8 +146,8 @@ export default navbar([
     ],
   },
   {
-    text: "TGNAV",
+    text: "一个机场玩转Telegram教程",
     icon: "compass",
-    link: "https://www.tgnav.org/"
+    link: "https://tg.ygjc.cc/"
   }
 ]);
