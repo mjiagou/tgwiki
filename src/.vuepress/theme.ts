@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://wiki.tgnav.org",
+  hostname: "https://tg.ygjc.cc",
   author: {
     name: "TGwiki",
   },
@@ -119,25 +119,25 @@ export default hopeTheme({
     icon: {
       assets: "fontawesome-with-brands",
     },
-    notice: [
-      {
-        path: "/",
-        title: "TGwiki已更新",
-        content: "我们更新了文档内容并启用了新域名：wiki.tgnav.org。<br/>TGwiki维护需要巨大成本，欢迎您在条件允许范围内赞助我们。",
-        actions: [
-          {
-            text: "赞助我们",
-            type: "primary",
-            link: "https://tgnav.github.io/donate/",
-          },
-          {
-            text: "关注Twitter",
-            type: "default",
-            link: "https://www.twitter.com/TGNAVteam",
-          },
-        ],
-      },
-    ],
+    // notice: [
+    //  {
+    //    path: "/",
+    //    title: "TGwiki已更新",
+    //    content: "我们更新了文档内容并启用了新域名：wiki.tgnav.org。<br/>TGwiki维护需要巨大成本，欢迎您在条件允许范围内赞助我们。",
+    //    actions: [
+    //      {
+    //        text: "赞助我们",
+    //        type: "primary",
+    //        link: "https://tgnav.github.io/donate/",
+    //      },
+    //      {
+    //       text: "关注Twitter",
+    //       type: "default",
+    //        link: "https://www.twitter.com/TGNAVteam",
+    //      },
+    //   ],
+    //  },
+    // ],
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     pwa: {
