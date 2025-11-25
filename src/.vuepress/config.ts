@@ -5,7 +5,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: '一个机场Telegram教程知识库',
+  title: '一个机场玩转Telegram教程知识库',
   shouldPrefetch: false,
   description: 'TGwiki (Telegram Wiki) - Telegram知识库，由TGNAV打造的高质量Telegram知识库，汇集了Telegram常用功能介绍和使用说明，帮助用户更全面地了解Telegram的各种功能。',
   head: [
