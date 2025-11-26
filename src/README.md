@@ -12,7 +12,7 @@ bgImage: ./assets/image/0-light.svg
 bgImageDark: ./assets/image/0-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: TGwiki - Telegram知识库
+heroText: Telegram教程知识库
 tagline: TGwiki (Telegram Wiki) - Telegram知识库，由TGNAV打造的高质量Telegram知识库，帮助用户更科学地使用Telegram。
 heroFullScreen: true
 actions:
@@ -20,9 +20,9 @@ actions:
     icon: lightbulb
     link: ./guide.html
     type: primary
-  - text: TGNAV
+  - text: 一个机场推荐网
     icon: link
-    link: https://www.tgnav.org/
+    link: https://ygjc.cc/
 
 highlights:
   - header: 特性
