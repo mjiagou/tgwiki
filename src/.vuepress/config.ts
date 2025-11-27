@@ -20,6 +20,14 @@ export default defineUserConfig({
     ['noscript', {}, `<p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101396814ns.gif" /></p>`],
     ['script', {async: true, src: 'https://telegram.org/js/telegram-web-app.js' }],
     ['script', {type: 'text/javascript'}, `const urlParams = new URLSearchParams(window.location.search); const pathParam = urlParams.get('tgWebAppStartParam'); if (pathParam) { const path = window.atob(pathParam); window.location.href = window.location.origin + "/" + path; }`],
+[
+      'script',
+      {
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1683234937128959',
+        crossorigin: 'anonymous'
+      }
+    ],
   ],
   theme,
 });
