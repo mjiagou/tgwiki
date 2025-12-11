@@ -1,11 +1,16 @@
 ---
-title: 新建群组
-description: 群组是一种常用的聊天方式，Telegram支持至多20万人的群组。本文介绍了如何创建Telegram群组。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram新建群组,Telegram创建群组,TG新建群组,TG创建群组,电报新建群组,电报创建群组
+title: Telegram群组(Group)创建与设置完全指南 (超级群组)
+shortTitle: 创建群组
+description: 只有几十人的小群还是20万人的超级群组？本文详解Telegram群组创建流程、群类型设置及邀请链接管理。
+icon: user-group
+category:
+  - 进阶教程
+tag:
+  - 群组
+  - 建群
 ---
+
+# Telegram群组(Group)创建与设置完全指南 (超级群组)
 
 1. 复制一个Bot的用户名：`@keyworddel_bot`或`@UserMeta_Bot`或`@AntiServiceMessage_Bot`
 2. `新建群组`->粘贴刚复制的用户名

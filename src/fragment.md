@@ -1,11 +1,20 @@
 ---
-title: Fragment
-description: 由于运营成本需要，Telegram推出了大会员（Telegram Premium）。本文介绍了Telegram大会员的专属功能，以及Telegram大会员开通方法和价格。
+title: Fragment交易平台使用教程：购买Telegram匿名号码与用户名
+shortTitle: Fragment交易
+description: 想要+888匿名号码或短用户名？本文介绍Telegram官方区块链平台Fragment，教你如何通过TON币购买稀有资源。
+icon: diamond
+category:
+  - 进阶教程
+tag:
+  - Fragment
+  - TON
 head:
   - - meta
     - name: keywords
       content: Fragment,TON,Telegram用户名,Telegram匿名号码,Telegram大会员,TG用户名,TG匿名号码,TG大会员,电报用户名,电报匿名号码,电报大会员
 ---
+
+# Fragment交易平台使用教程：购买Telegram匿名号码与用户名
 
 Fragment是一个免费平台，通过TON（最初由Telegram开发的区块链技术）促进用户之间的收藏品交易以及从Telegram购买服务。它支持直接、安全和匿名的销售以及公开拍卖，每个人都可以在一段时间内参与其中。
 

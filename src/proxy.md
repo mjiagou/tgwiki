@@ -1,11 +1,20 @@
 ---
-title: 代理设置
-description: Telegram连接失败？本文提供了Telegram代理设置的有关说明，向您介绍如何修改Telegram代理设置，添加内置代理。
+title: Telegram代理设置教程：内置MTProxy与Socks5代理配置方法
+shortTitle: 代理设置
+description: 电报连接不稳定或慢？教你如何在Telegram内置设置中配置MTProxy或Socks5代理，无需额外软件即可加速连接。
+icon: network-wired
+category:
+  - 基础教程
+tag:
+  - 代理
+  - 网络
 head:
   - - meta
     - name: keywords
       content: Telegram代理设置,Telegram代理,Telegram内置代理,Telegram自定义代理,TG代理设置,TG代理,TG内置代理,TG自定义代理,电报代理设置,电报代理,电报内置代理,电报自定义代理
 ---
+
+# Telegram代理设置教程：内置MTProxy与Socks5代理配置方法
 
 ## Telegram Desktop
 

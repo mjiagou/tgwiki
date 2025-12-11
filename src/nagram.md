@@ -1,11 +1,21 @@
 ---
-title: Nagram
-description: Nagram是一个基于NekoX并进行了一些修改的第三方Telegram客户端。拥有强大的功能且在GitHub上开源。本文介绍了Nagram的特色功能及自定义设置。
+title: Nagram客户端介绍与下载：功能最强大的Telegram第三方App (Android)
+shortTitle: Nagram客户端
+description: 官方版没有去广告和翻译功能？详解Nagram（原Nekogram X）客户端，内置谷歌翻译、DeepL翻译，支持去广告和忽略已读。
+icon: mobile-screen
+category:
+  - 资源推荐
+tag:
+  - Nagram
+  - 客户端
+
 head:
   - - meta
     - name: keywords
       content: Nagram,Nagram自定义设置,Nagram功能,Telegram第三方客户端推荐,Telegram第三方,TG第三方客户端推荐,TG第三方,电报第三方客户端推荐,电报第三方
 ---
+
+# Nagram客户端介绍与下载：功能最强大的Telegram第三方App (Android)
 
 Nagram是一个基于NekoX并进行了一些修改的第三方Telegram客户端。拥有强大的功能且在 [GitHub](https://github.com/NextAlone/Nagram) 上开源。
 

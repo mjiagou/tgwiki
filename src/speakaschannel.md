@@ -1,11 +1,20 @@
 ---
-title: 频道身份发言
-description: 本文介绍了Telegram如何在群组中使用频道身份发言。当其他用户点击你的头像时，显示的是你的频道，而不是你的个人账号。
+title: Telegram如何以频道身份在群组发言 (匿名身份)
+shortTitle: 频道身份发言
+description: 不想暴露个人账号？教你如何将频道绑定到群组，使用频道身份发送消息，保护个人隐私并增加频道曝光。
+icon: mask
+category:
+  - 进阶教程
+tag:
+  - 匿名
+  - 频道
 head:
   - - meta
     - name: keywords
       content: Telegram频道身份发言,Telegram频道马甲,Telegram频道皮套,TG频道身份发言,TG频道马甲,TG频道皮套,电报频道身份发言,电报频道马甲,电报频道皮套
 ---
+
+# Telegram如何以频道身份在群组发言 (匿名身份)
 
 ::: tip
 

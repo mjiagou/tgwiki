@@ -1,11 +1,16 @@
 ---
-title: 隐私设置
-description: 想知道如何保护隐私，防止信息泄露？本文详细介绍了Telegram隐私设置的各项内容，帮助您有效的保护隐私。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram隐私,Telegram隐私设置,Telegram保护隐私,Telegram两步验证,Telegram隐藏手机号码,Telegram隐藏上线时间,TG隐私,TG隐私设置,TG保护隐私,TG两步验证,TG隐藏手机号码,TG隐藏上线时间,电报隐私,电报隐私设置,电报保护隐私,电报两步验证,电报隐藏手机号码,电报隐藏上线时间
+title: Telegram隐私安全设置指南：如何隐藏手机号防止被骚扰
+shortTitle: 隐私设置
+description: 玩Telegram一定要做的隐私设置！教你如何隐藏手机号、禁止被拉入陌生群组、开启两步验证密码，全方位保护你的账号安全。
+icon: shield-halved
+category:
+  - 基础教程
+tag:
+  - 隐私
+  - 安全
 ---
+
+# Telegram隐私安全设置指南：如何隐藏手机号防止被骚扰
 
 `设置`->`隐私`：
 

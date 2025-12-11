@@ -1,11 +1,21 @@
 ---
-title: 小程序
-description: 通过小程序（迷你应用程序），开发人员可以使用JavaScript创建无限灵活的界面，这些界面可以在Telegram内启动，并且可以完全取代任何网站。
+title: Telegram小程序(Mini App)开发入门与使用指南 (TON生态)
+shortTitle: 小程序MiniApp
+description: 像微信一样用Telegram！详解Telegram Mini App（小程序）生态，教你如何打开小程序、添加到主屏幕以及基础开发文档入口。
+icon: microchip
+category:
+  - 开发者
+tag:
+  - 小程序
+  - MiniApp
+
 head:
   - - meta
     - name: keywords
       content: Telegram小程序,Telegram迷你应用程序,Telegram Mini App,Telegram Web App,TG小程序,TG迷你应用程序,TG Mini App,TG Web App,电报小程序,电报迷你应用程序,电报 Mini App,电报 Web App
 ---
+
+# Telegram小程序(Mini App)开发入门与使用指南 (TON生态)
 
 Telegram小程序（迷你应用程序）不仅仅是一个简单的工具，而且是一个可以替代普通网站的强大平台。
 

@@ -1,11 +1,20 @@
 ---
-title: Telegram主题
-description: Telegram客户端可以设置各式各样的主题。本文介绍了Telegram如何切换自定义主题，并给出了几个分享Telegram主题的频道。
+title: Telegram主题皮肤设置教程：自定义聊天背景与夜间模式
+shortTitle: 主题皮肤
+description: 让你的Telegram更好看！教你如何更换聊天背景图、切换夜间模式、调整字体大小以及自定义主题颜色。
+icon: palette
+category:
+  - 基础教程
+tag:
+  - 主题
+  - 美化
 head:
   - - meta
     - name: keywords
       content: Telegram主题,Telegram自定义主题,Telegram创建主题,Telegram切换主题,Telegram界面主题,TG主题,TG自定义主题,TG创建主题,TG切换主题,TG界面主题,电报助推,电报自定义主题,电报创建主题,电报切换主题,电报界面主题
 ---
+
+# Telegram主题皮肤设置教程：自定义聊天背景与夜间模式
 
 Telegram客户端可以设置各式各样的主题。
 

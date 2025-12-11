@@ -1,11 +1,21 @@
 ---
-title: 附近的人和群组
-description: Telegram也有附近的人和附近的群功能（不过现在都是已经被广告占领了）。本文介绍了如何开启Telegram附近的人和群组。访问TGwiki - Telegram知识库，了解更多Telegram使用技巧。
+title: Telegram“附近的人”功能详解与防骗警示 (People Nearby)
+shortTitle: 附近的人
+description: 怎么查看Telegram附近的人？为什么这个功能全是骗子？本文揭秘“附近的人”诈骗套路，并教你如何彻底关闭定位以保护隐私。
+icon: location-dot
+category:
+  - 安全警示
+tag:
+  - 附近的人
+  - 隐私
+
 head:
   - - meta
     - name: keywords
       content: Telegram附近的人和群组,Telegram附近的人,Telegram附近的群组,TG附近的人和群组,TG附近的人,TG附近的群组,电报附近的人和群组,电报附近的人,电报附近的群组
 ---
+
+# Telegram“附近的人”功能详解与防骗警示 (People Nearby)
 
 ::: warning
 

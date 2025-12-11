@@ -1,11 +1,21 @@
 ---
-title: 创建贴纸
-description: 贴纸类似于微信中的表情包，Telegram支持多种多样的贴纸。本文介绍了Telegram如何创建贴纸（包括静态贴纸、动态贴纸），以及贴纸的大小限制和要求。
+title: Telegram表情包(Sticker)制作与上传教程：打造你的专属贴纸
+shortTitle: 制作表情包
+description: 想把自己喜欢的图片做成Telegram表情包？手把手教你使用官方@Stickers机器人上传静态贴纸和动态表情包。
+icon: face-smile
+category:
+  - 进阶教程
+tag:
+  - 表情包
+  - 贴纸
+
 head:
   - - meta
     - name: keywords
       content: Telegram创建贴纸,Telegram贴纸,Telegram贴纸包,如何创建Telegram贴纸,TG创建贴纸,TG贴纸,TG贴纸包,如何创建TG贴纸,电报创建贴纸,电报贴纸,电报贴纸包,如何创建电报贴纸
 ---
+
+# Telegram表情包(Sticker)制作与上传教程：打造你的专属贴纸
 
 贴纸类似于微信中的表情包，Telegram支持多种多样的贴纸。
 

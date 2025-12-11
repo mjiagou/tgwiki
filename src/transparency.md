@@ -1,11 +1,21 @@
 ---
-title: 用户数据披露
-description: 自2024年10月起，Telegram开始回复地方政府的法律请求，向其大量披露违法账号信息。本页面统计了Telegram近期披露的数据量。
+title: Telegram 透明度报告与执法合作政策说明
+shortTitle: 透明度报告
+description: Telegram会向政府提供用户数据吗？本文整理了Telegram官方的透明度报告及隐私政策声明，解答你对数据安全的疑虑。
+icon: file-shield
+category:
+  - 政策法规
+tag:
+  - 隐私
+  - 政策
+
 head:
   - - meta
     - name: keywords
       content: Telegram用户数据披露,Telegram披露数据,Telegram透明度公告,Telegram政府请求,TG用户数据披露,TG披露数据,TG透明度公告,TG政府请求,电报用户数据披露,电报披露数据,电报透明度公告,电报政府请求
 ---
+
+# Telegram 透明度报告与执法合作政策说明
 
 自2024年10月起（Durov在法国被俘保释后），Telegram开始回复地方政府的法律请求，向其大量披露有关违法账号的手机号和IP地址。
 

@@ -1,11 +1,20 @@
 ---
-title: 对话分组
-description: Telegram支持将对话分组，帮助用户更高效的管理对话列表。本文介绍了Telegram如何设置对话分组，以及对话分组的一些操作技巧。
+title: Telegram聊天分组文件夹(Folder)设置教程：高效管理会话
+shortTitle: 聊天分组
+description: 消息太多找不到人？学会使用Telegram文件夹(Chat Folders)功能，将频道、群组、私聊自动分类，提升阅读效率。
+icon: folder
+category:
+  - 进阶教程
+tag:
+  - 分组
+  - 效率
 head:
   - - meta
     - name: keywords
       content: Telegram对话分组,Telegram文件夹,Telegram分组,Telegram创建分组,TG对话分组,TG文件夹,TG分组,TG创建分组,电报对话分组,电报文件夹,电报分组,电报创建分组
 ---
+
+# Telegram聊天分组文件夹(Folder)设置教程：高效管理会话
 
 Telegram支持将对话分组（文件夹），帮助用户更高效的管理对话列表。
 

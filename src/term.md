@@ -1,11 +1,21 @@
 ---
-title: 名词解释
-description: 本文介绍了Telegram上的常用术语，包括：UID、用户名、注册时间；好友、联系人；私聊、群组、频道；限制、冻结；封禁、拉黑、禁言等，帮助小白快速入门Telegram。
+title: Telegram新手必读名词解释：UID、频道群组区别与封禁术语大全
+shortTitle: 术语解释
+description: 刚玩电报看不懂黑话？本文详解Telegram常见术语，包括如何查询UID、公开群与私有群的区别、以及账号限制(Limit)与冻结(Frozen)的含义。
+icon: book-bookmark
+category:
+  - 科普知识
+tag:
+  - 术语
+  - 黑话
+
 head:
   - - meta
     - name: keywords
       content: Telegram名词解释,Telegram术语,Telegram UID,Telegram用户名,Telegram好友,Telegram联系人,Telegram私聊,Telegram群组,Telegram频道,Telegram封禁,Telegram拉黑,Telegram禁言,TG名词解释,TG术语,TG UID,TG用户名,TG好友,TG联系人,TG私聊,TG群组,TG频道,TG封禁,TG拉黑,TG禁言,电报名词解释,电报术语,电报UID,电报用户名,电报好友,电报联系人,电报私聊,电报群组,电报频道,电报封禁,电报拉黑,电报禁言
 ---
+
+# Telegram新手必读名词解释：UID、频道群组区别与封禁术语大全
 
 ## UID
 

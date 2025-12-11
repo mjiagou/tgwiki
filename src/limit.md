@@ -1,11 +1,21 @@
 ---
-title: Telegram限制
-description: Telegram虽然以各种口号宣传自己，但它依然有很多的规则和限制。本文详细介绍了Telegram账号、频道、群组、机器人、贴纸、动态等常用功能的限制。其中标有星号的为Premium上限。
+title: Telegram官方限制规则大全 (API/群组/上传限制一览表)
+shortTitle: 限制规则
+description: 一个群最多多少人？文件最大传多少？本文汇总Telegram各项功能的官方限制数值，避免触犯风控。
+icon: ruler-combined
+category:
+  - 科普知识
+tag:
+  - 规则
+  - 限制
+
 head:
   - - meta
     - name: keywords
       content: Telegram限制,Telegram规则,Telegram频道限制,Telegram群组限制,Telegram机器人限制,Telegram贴纸限制,Telegram动态限制,TG限制,TG规则,TG频道限制,TG群组限制,TG机器人限制,TG贴纸限制,TG动态限制,电报限制,电报规则,电报频道限制,电报群组限制,电报机器人限制,电报贴纸限制,电报动态限制
 ---
+
+# Telegram官方限制规则大全 (API/群组/上传限制一览表)
 
 Telegram虽然以各种口号宣传自己，但它依然有很多的规则和限制，下面提供详细信息。
 

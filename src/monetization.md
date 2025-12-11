@@ -1,11 +1,21 @@
 ---
-title: 频道创收
-description: 从2024年4月份开始，Telegram团队为内容创作者引入奖励系统，通过该系统，Telegram频道的所有者现在可以获得频道展示广告所获收入的50%。
+title: Telegram频道变现指南：如何开启广告收益与内容付费
+shortTitle: 变现收益
+description: 做Telegram频道能赚钱吗？详解Telegram官方广告分成计划(Ad Revenue)及频道主如何提现TON收益。
+icon: sack-dollar
+category:
+  - 进阶教程
+tag:
+  - 赚钱
+  - 收益
+
 head:
   - - meta
     - name: keywords
       content: Telegram频道创收,Telegram创收计划,Telegram频道收益,Telegram付费内容,TG频道创收,TG创收计划,TG频道收益,TG付费内容,电报频道创收,电报创收计划,电报频道收益,电报付费内容
 ---
+
+Telegram频道变现指南：如何开启广告收益与内容付费
 
 从2024年4月份开始，Telegram团队为内容创作者引入奖励系统，通过该系统，Telegram频道的所有者现在可以获得频道展示广告所获收入的`50%`。
 

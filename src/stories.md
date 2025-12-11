@@ -1,11 +1,21 @@
 ---
-title: 动态功能
-description: 用户可以拍摄或选择一张图或一段视频发布到动态（Stories），其他用户可以点赞、评论、转发。本文介绍了Telegram如何发布动态，以及Telegram频道、群组如何开启动态。
+title: Telegram Stories (快拍) 发布教程：如何发朋友圈动态
+shortTitle: 发布快拍
+description: Telegram也有“朋友圈”了！详解Stories快拍功能，教你如何发布限时动态、设置查看权限以及保存他人的快拍。
+icon: camera-retro
+category:
+  - 进阶教程
+tag:
+  - 快拍
+  - 动态
+
 head:
   - - meta
     - name: keywords
       content: Telegram动态功能,Telegram动态,Telegram发布动态,Telegram频道动态,TG动态功能,TG动态,TG发布动态,TG频道动态,电报动态功能,电报动态,电报发布动态,电报频道动态
 ---
+
+# Telegram Stories (快拍) 发布教程：如何发朋友圈动态
 
 ## 发布动态
 

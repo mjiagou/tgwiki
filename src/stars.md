@@ -1,11 +1,21 @@
 ---
-title: Telegram星币
-description: Telegram星币（Telegram Stars）是Telegram应用内使用的虚拟货币。用户可以使用星币支持创作者、赠送礼品、购买数字商品和服务等。
+title: Telegram Stars (星币) 支付系统详解与充值使用教程
+shortTitle: Stars星币支付
+description: Telegram新出的虚拟货币Stars是什么？有什么用？本文详解星币的充值方法、汇率以及如何用它购买数字商品。
+icon: star
+category:
+  - 进阶教程
+tag:
+  - 支付
+  - Stars
+
 head:
   - - meta
     - name: keywords
       content: Telegram星币,Telegram Stars,Telegram礼物,Telegram打赏,Telegram赠送礼物,TG星币,TG Stars,TG礼物,TG打赏,TG赠送礼物,电报星币,电报Stars,电报礼物,电报打赏,电报赠送礼物
 ---
+
+Telegram Stars (星币) 支付系统详解与充值使用教程
 
 Telegram星币（Telegram Stars）是Telegram应用内使用的虚拟货币。星币是Telegram增强用户参与度和有效实现服务货币化的广泛战略的一部分。
 

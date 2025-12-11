@@ -1,11 +1,21 @@
 ---
-title: 谨防诈骗
-description: Telegram上有很多诈骗团伙使用各种手段欺诈用户。通常小白很容易中招，造成不必要的财产损失。本文介绍了常见的诈骗形式，帮助用户有效避坑，防止陷入诈骗圈套。
+title: Telegram防骗指南：盘点电报常见诈骗套路与避坑技巧
+shortTitle: 防骗避坑
+description: 电报上诈骗横行！本文揭秘常见的“辅助解封”、“加密货币投资”、“假冒官方客服”等骗局，保护你的财产安全。
+icon: shield-cat
+category:
+  - 安全警示
+tag:
+  - 诈骗
+  - 防骗
+
 head:
   - - meta
     - name: keywords
       content: Telegram谨防诈骗,Telegram诈骗套路,Telegram骗子,Telegram防止被骗,TG谨防诈骗,TG诈骗套路,TG骗子,TG防止被骗,电报谨防诈骗,电报诈骗套路,电报骗子,电报防止被骗
 ---
+
+# Telegram防骗指南：盘点电报常见诈骗套路与避坑技巧
 
 Telegram上有很多诈骗团伙，通常刚接触Telegram的小白很容易中招。我们在这里列举了一些常见的诈骗套路，供大家参考。
 

@@ -1,11 +1,21 @@
 ---
-title: Turrit
-description: Turrit基于Telegram基础上加入了更实用的拓展，改进和简化了交互界面，是一种用户友好、简单易用的客户端。本文介绍了Turrit的特色功能及自定义设置。
+title: Turrit (原Nicegram) 客户端评测：iOS好用的Telegram第三方App
+shortTitle: Turrit客户端
+description: 苹果iOS用户想要中文翻译？介绍Turrit（原Nicegram）客户端，无需代理即可直连Telegram，内置中文汉化与翻译功能。
+icon: apple
+category:
+  - 资源推荐
+tag:
+  - Turrit
+  - iOS
+
 head:
   - - meta
     - name: keywords
       content: Turrit,Turrit自定义设置,Turrit功能,Telegram第三方客户端推荐,Telegram第三方,TG第三方客户端推荐,TG第三方,电报第三方客户端推荐,电报第三方
 ---
+
+# Turrit (原Nicegram) 客户端评测：iOS好用的Telegram第三方App
 
 Turrit基于Telegram基础上加入了更实用的拓展，改进和简化了交互界面，是一种用户友好、简单易用的客户端。
 

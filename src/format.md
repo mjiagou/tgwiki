@@ -1,11 +1,22 @@
 ---
-title: 消息格式
-description: Telegram消息支持多种格式，例如富文本消息、引用回复、链接预览等。本文介绍了如何发送富文本消息，引用回复特定内容，以及调整链接预览。
+title: Telegram消息格式设置指南：发送富文本(加粗/代码)、引用回复与链接预览
+shortTitle: 消息格式
+description: 怎么在Telegram发代码块或加粗字体？详解Markdown富文本消息编辑、引用回复特定内容以及调整链接预览的高级技巧。
+icon: pen-ruler
+category:
+  - 进阶教程
+tag:
+  - 格式
+  - 排版
+  - 引用
+
 head:
   - - meta
     - name: keywords
       content: Telegram消息格式,Telegram富文本消息,Telegram引用回复,Telegram链接预览,TG消息格式,TG富文本消息,TG引用回复,TG链接预览,电报消息格式,电报富文本消息,电报引用回复,电报链接预览
 ---
+
+# Telegram消息格式设置指南：发送富文本(加粗/代码)、引用回复与链接预览
 
 Telegram消息支持多种格式，例如富文本消息、引用回复、可调整的链接预览等。
 

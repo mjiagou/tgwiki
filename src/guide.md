@@ -1,11 +1,17 @@
 ---
-title: 文档指南
-description: 欢迎使用TGwiki！TGwiki是Telegram Wiki的缩写，汇集了Telegram的使用说明，旨在帮助用户更全面地了解Telegram的各种功能。本页是TGwiki的文档指南，向你介绍一些文档的使用技巧。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram使用说明,TGwiki指南,Telegram介绍,Telegram入门,TG使用说明,TG介绍,TG入门,电报使用说明,电报介绍,电报入门,TGwiki,Telegram知识库
+title: Telegram新手入门指南：从下载注册到防封设置全流程
+shortTitle: 新手指南
+description: 第一次使用Telegram？本文手把手教你如何下载官方正版APP、注册账号、汉化中文界面，以及新手必须要做的隐私安全设置。
+icon: lightbulb
+order: 1
+category:
+  - 基础教程
+tag:
+  - 入门
+  - 教程
 ---
+
+# Telegram新手入门指南：从下载注册到防封设置全流程
 
 欢迎使用TGwiki！TGwiki是Telegram Wiki的缩写，汇集了Telegram的使用说明，旨在帮助用户更全面地了解Telegram的各种功能。本页是TGwiki的文档指南，向你介绍一些文档的使用技巧。
 

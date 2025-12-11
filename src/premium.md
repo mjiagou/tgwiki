@@ -1,11 +1,16 @@
 ---
-title: Premium
-description: 由于运营成本需要，Telegram推出了大会员（Telegram Premium）。本文介绍了Telegram大会员的专属功能，以及Telegram大会员开通方法和价格。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram Premium,Telegram会员,Telegram大会员,TG Premium,TG会员,TG大会员,电报Premium,电报会员,电报大会员
+title: Telegram Premium 大会员功能详解与开通充值教程
+shortTitle: 会员开通
+description: Telegram Premium会员有什么用？值得买吗？本文详细介绍会员特权，并教你如何以更便宜的价格代充或自己充值Telegram会员。
+icon: star
+category:
+  - 进阶教程
+tag:
+  - 会员
+  - Premium
 ---
+
+# Telegram Premium 大会员功能详解与开通充值教程
 
 由于运营成本需要，Telegram推出了大会员（Telegram Premium）。
 

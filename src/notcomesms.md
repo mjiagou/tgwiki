@@ -1,11 +1,16 @@
 ---
-title: 未收到验证码
-description: Telegram注册/登录时没有收到验证码？本文给出了解决Telegram没有收到验证码的解决方法，希望对您有所帮助。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram未收到验证码,Telegram短信验证码,Telegram验证码,Telegram注册,TG未收到验证码,TG短信验证码,TG验证码,TG注册,电报未收到验证码,电报短信验证码,电报验证码,电报注册
+title: 解决Telegram收不到短信验证码的5种方法 (最新有效)
+shortTitle: 收不到验证码
+description: 注册或登录Telegram时收不到短信验证码怎么办？尝试过运营商拦截检查了吗？本文汇总了5种解决收不到验证码的方案，亲测有效。
+icon: comment-slash
+category:
+  - 常见问题
+tag:
+  - 验证码
+  - 登录问题
 ---
+
+# 解决Telegram收不到短信验证码的5种方法 (最新有效)
 
 **如果你是注册：**
 
@@ -22,6 +27,6 @@ head:
 
 您可以尝试使用 [Telegram X](https://play.google.com/store/apps/details?id=org.thunderdog.challegram) 获取验证码。经测试，Telegram X的短息验证码获取率更高，速度更快！
 
-如果仍无法收到验证码，则可以考虑购买境外号码或使用 [接码平台](https://sms-activate.org/?ref=3073106) 注册。
+如果仍无法收到验证码，则可以考虑购买境外号码或使用 [接码平台](https://sms-activate.io/?ref=14071648) 注册。
 
 :::

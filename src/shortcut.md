@@ -1,11 +1,20 @@
 ---
-title: 快捷键
-description: Telegram桌面端支持丰富的快捷键，您可以通过快捷键迅速完成操作。本文介绍了Telegram Desktop的常用快捷键。
+title: Telegram电脑版键盘快捷键大全 (Windows/Mac) 效率提升指南
+shortTitle: 常用快捷键
+description: 想要像黑客一样操作Telegram？本文汇总了Telegram Desktop桌面版最常用的键盘快捷键，助你聊天效率翻倍。
+icon: keyboard
+category:
+  - 效率技巧
+tag:
+  - 快捷键
+  - 效率
 head:
   - - meta
     - name: keywords
       content: Telegram快捷键,Telegram桌面快捷键,TG快捷键,TG桌面快捷键,电报快捷键,电报桌面快捷键
 ---
+
+# Telegram电脑版键盘快捷键大全 (Windows/Mac) 效率提升指南
 
 Telegram桌面端（Telegram Desktop）支持丰富的快捷键，您可以通过快捷键迅速完成操作。
 

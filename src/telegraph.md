@@ -1,12 +1,21 @@
 ---
-title: Telegraph
-lang: zh-CN
-description: Telegraph是由Telegram推出的一个极简的匿名内容发布工具。本文介绍了Telegraph的几种使用方法，希望能够帮助到您。
+title: Telegraph (Telegra.ph) 文章发布平台使用指南：匿名图文神器
+shortTitle: Telegraph文章
+description: 不需要注册账号就能发文章？详解Telegraph发布平台，教你编写图文并茂的文章并生成链接分享到Telegram。
+icon: pen-nib
+category:
+  - 进阶教程
+tag:
+  - 写作
+  - Telegraph
+
 head:
   - - meta
     - name: keywords
       content: Telegraph,Telegraph简介,Telegraph发布,Telegraph修改,Telegraph排版,Telegraph发布文章,Telegraph修改文章,Telegraph使用方法,Telegrah使用技巧,Telegram功能
 ---
+
+# Telegraph (Telegra.ph) 文章发布平台使用指南：匿名图文神器
 
 Telegraph是一个极简的匿名内容发布工具。
 

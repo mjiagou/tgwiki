@@ -1,13 +1,21 @@
 ---
-title: 找出群管理员
-description: 本文介绍了如何找出Telegram群组管理员。访问TGwiki - Telegram知识库，了解更多Telegram使用技巧。
+title: Telegram群组管理员查看教程：如何在各客户端找出群主和管理
+shortTitle: 找群管理员
+description: 在Telegram群里谁是群主？本文总结了在iOS、Android及电脑版客户端中快速查找群组管理员(Admin)和创建者(Owner)的方法。
+icon: user-tie
+category:
+  - 基础教程
+tag:
+  - 管理员
+  - 群组
+
 head:
   - - meta
     - name: keywords
       content: Telegram找出管理员,Telegram查找群管理员,TG找出管理员,TG查找群管理员,电报找出管理员,电报查找群管理员,TGwiki,Telegram知识库
 ---
 
-# Telegram找出群管理员
+# Telegram群组管理员查看教程：如何在各客户端找出群主和管理
 
 ## 通用方法
 

@@ -1,11 +1,21 @@
 ---
-title: 账号被冻结
-description: 当Telegram官方认为你违反了服务协议时，便会冻结你的账号。此举为防止大量封禁账号导致误封。本文介绍了账号被冻结后的特征及申诉步骤。
+title: Telegram账号被冻结/限制功能的原因分析与解决办法
+shortTitle: 账号冻结
+description: 为什么我的Telegram账号无法发消息或被限制加群？详解账号“冻结”与“封禁”的区别，以及如何等待自动解封。
+icon: snowflake
+category:
+  - 常见问题
+tag:
+  - 冻结
+  - 限制
+
 head:
   - - meta
     - name: keywords
       content: Telegram冻结,Telegram账号被冻结,TG冻结,TG账号被冻结,电报冻结,电报账号被冻结
 ---
+
+# Telegram账号被冻结/限制功能的原因分析与解决办法
 
 Telegram在2025年4月推出了账号冻结。当Telegram官方认为你违反了服务协议时，便会冻结你的账号。此举为防止大量封禁账号导致误封。
 

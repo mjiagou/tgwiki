@@ -1,11 +1,20 @@
 ---
-title: 频道/群组助推
-description: 新版Telegram中，大会员可以为频道/群组助推，帮助频道/群组开启动态、自定义颜色、自定义表情回应、自定义背景等更多功能。本文介绍了如何为频道/群组助推，以及助推的规则。
+title: Telegram 频道助力 (Boost) 机制详解：解锁群组Story等级
+shortTitle: 频道助力
+description: 什么是Telegram Boost？如何让群员为频道助力？详解助力等级与解锁Story、自定义表情等高级权益的关系。
+icon: rocket
+category:
+  - 进阶教程
+tag:
+  - Boost
+  - 助力
 head:
   - - meta
     - name: keywords
       content: Telegram频道助推,Telegram群组助推,Telegram助推,Telegram Boost,Telegram频道动态,Telegram群组动态,TG频道助推,TG群组助推,TG助推,TG频道动态,TG群组动态,电报频道助推,电报群组助推,电报助推,电报频道动态,电报群组动态
 ---
+
+# Telegram 频道助力 (Boost) 机制详解：解锁群组Story等级
 
 ## 更多功能
 

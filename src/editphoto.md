@@ -1,11 +1,21 @@
 ---
-title: 图片排版
-description: 本文介绍了Telegram在发送图片消息时如何添加文字说明，以文件格式发送图片，调整文本位置，编辑图片样式，以及对图片重新排序。
+title: Telegram内置图片编辑器使用技巧：打码、裁剪与添加文字
+shortTitle: 图片编辑
+description: 发图前需要打码？Telegram自带强大的图片编辑功能！教你如何在发送图片前快速进行裁剪、模糊打码、添加文字和贴纸。
+icon: paintbrush
+category:
+  - 基础教程
+tag:
+  - 图片
+  - 编辑
+
 head:
   - - meta
     - name: keywords
       content: Telegram图片排版,Telegram图片添加说明,Telegram发送图片,Telegram发送原图,Telegram编辑图片,Telegram图片排序,TG图片排版,TG图片添加说明,TG发送图片,TG发送原图,TG编辑图片,TG图片排序,电报图片添加说明,电报发送图片,电报发送原图,电报编辑图片,电报图片排序
 ---
+
+# Telegram内置图片编辑器使用技巧：打码、裁剪与添加文字
 
 ## 图片添加说明、发送原图
 

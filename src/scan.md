@@ -1,11 +1,21 @@
 ---
-title: 扫一扫
-description: Telegram 可以为个人、群组、频道、机器人生成二维码，同时，电脑端登录时可以选“扫描二维码”方式登录。本文介绍了 Telegram 的“扫一扫”功能。
+title: Telegram扫码登录教程：如何使用手机扫描二维码登录电脑版
+shortTitle: 扫码登录
+description: 电脑端登录太麻烦？教你如何使用手机Telegram App扫描二维码（QR Code）快速登录桌面客户端，安全又快捷。
+icon: qrcode
+category:
+  - 基础教程
+tag:
+  - 登录
+  - 扫码
+
 head:
   - - meta
     - name: keywords
       content: Telegram扫一扫,Telegram扫码,Telegram扫描二维码,TG扫一扫,TG扫码,TG扫描二维码,电报扫一扫,电报扫码,电报扫描二维码
 ---
+
+# Telegram扫码登录教程：如何使用手机扫描二维码登录电脑版
 
 1. 在 Telegram 客户端中，可以为个人、群组、频道、机器人生成二维码，方便分享给其他人。
 

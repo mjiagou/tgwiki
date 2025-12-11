@@ -1,11 +1,16 @@
 ---
-title: 新建频道
-description: 频道类似于微信的公众号，只有管理员才能发布消息，成员只能关注频道，只能查看频道的消息。本文介绍了如何创建Telegram频道。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram新建频道,Telegram创建频道,TG新建频道,TG创建频道,电报新建频道,电报创建频道
+title: Telegram频道(Channel)创建教程：从0到1搭建你的专属频道
+shortTitle: 创建频道
+description: 想在Telegram发布内容？手把手教你创建公开频道或私有频道，设置频道链接、简介及头像，开启你的自媒体之路。
+icon: bullhorn
+category:
+  - 进阶教程
+tag:
+  - 频道
+  - 运营
 ---
+
+# Telegram频道(Channel)创建教程：从0到1搭建你的专属频道
 
 频道类似于微信的公众号，只有管理员才能发布消息，成员只能关注频道，只能查看频道的消息。
 

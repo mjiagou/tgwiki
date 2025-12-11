@@ -1,12 +1,21 @@
 ---
-title: 缓存和下载
-lang: zh-CN
-description: Telegram客户端在使用过程中会自动下载媒体（图片/视频/音频/文件）缓存在设备上，就会大量的占用设备存储空间。本文介绍了如何清理Telegram缓存，以及Telegram自动下载的有关设置。
+title: Telegram缓存清理教程：如何关闭自动下载并释放手机存储空间
+shortTitle: 缓存清理
+description: Telegram占用手机空间太大怎么办？教你如何正确清理电报缓存、设置关闭图片视频自动下载，有效解决占用几十GB内存的问题。
+icon: broom
+category:
+  - 基础教程
+tag:
+  - 缓存
+  - 清理空间
+
 head:
   - - meta
     - name: keywords
       content: Telegram缓存,Telegram下载,Telegram清理缓存,Telegram自动下载,Telegram存储空间,Telegram解除占用,TG缓存,TG下载,TG清理缓存,TG自动下载,TG存储空间,TG解除占用,电报缓存,电报下载,电报清理缓存,电报自动下载,电报存储空间,电报解除占用
 ---
+
+# Telegram缓存清理教程：如何关闭自动下载并释放手机存储空间
 
 Telegram客户端在使用过程中会自动下载媒体（图片/视频/音频/文件）缓存在设备上，就会大量的占用设备存储空间。
 

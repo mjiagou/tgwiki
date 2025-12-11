@@ -1,11 +1,20 @@
 ---
-title: 创建机器人
-description: 机器人是Telegram的特色功能之一。Telegram提供开放的api接口，允许开发者制作自己的机器人。本文介绍了如何创建自己的机器人，以及管理机器人的各项功能说明。
+title: Telegram机器人(Bot)申请教程：通过BotFather创建你的第一个Bot
+shortTitle: 申请机器人
+description: 想要拥有自己的Telegram机器人？本文教你如何通过BotFather申请API Token，设置机器人名称、头像和命令。
+icon: robot
+category:
+  - 开发者
+tag:
+  - 机器人
+  - BotFather
 head:
   - - meta
     - name: keywords
       content: Telegram创建机器人,Telegram机器人,Telegram管理机器人,Telegram编辑机器人,TG创建机器人,TG机器人,TG管理机器人,TG编辑机器人,电报创建机器人,电报机器人,电报管理机器人,电报编辑机器人
 ---
+
+# Telegram机器人(Bot)申请教程：通过BotFather创建你的第一个Bot
 
 机器人是Telegram的特色功能之一。Telegram提供开放的api接口，允许开发者制作自己的机器人。
 
@@ -114,6 +123,6 @@ head:
 
 ::: tip
 
-在找Telegram机器人推荐？请前往 [Telegram机器人导航](https://www.tgnav.org/robot/) 。
+在找Telegram机器人推荐？请前往 [Telegram机器人导航](https://tgnav.ygjc.cc) 。
 
 :::

@@ -1,11 +1,16 @@
 ---
-title: 号码被封禁
-description: 登录时候提示“此手机号码已被封禁”，说明账号被Telegram官方封了。本文介绍了向官方申诉进行解封的多种方法，以及如何防止被封号。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram封禁,Telegram号码被封禁,Telegram申请解封,Telegram登录时提示号码被封禁,Telegram防止被封号,TG号码被封禁,TG申请解封,TG防止被封号,电报号码被封禁,电报申请解封,电报防止被号
+title: Telegram账号被封禁(Banned)怎么申诉解封？官方解封话术分享
+shortTitle: 账号解封
+description: Telegram账号显示“This phone number is banned”怎么办？本文分析封号原因，并提供详细的邮件申诉教程和英文解封话术模板。
+icon: user-slash
+category:
+  - 常见问题
+tag:
+  - 封号
+  - 解封
 ---
+
+# Telegram账号被封禁(Banned)怎么申诉解封？官方解封话术分享
 
 登录时候提示`This phone number is banned`（`此手机号码已被封禁`），说明此手机号已经被Telegram官方封禁了，不能登录也不能注销。
 

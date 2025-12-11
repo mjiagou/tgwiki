@@ -1,11 +1,19 @@
 ---
-title: 消息翻译
-description: 消息不是中文，看不懂？本文介绍了Telegram翻译消息内容的几种方法，您可以使用Telegram自带的Google翻译、翻译机器人或者是外部工具进行翻译。
+title: Telegram内置翻译功能开启教程：一键翻译外语消息
+shortTitle: 开启翻译
+description: 英语不好怎么看频道？Telegram自带强大的翻译功能！教你如何开启并设置一键翻译聊天内容，支持多种语言。
+icon: language
+category:
+  - 基础教程
+tag:
+  - 翻译
 head:
   - - meta
     - name: keywords
       content: Telegram翻译,Telegram消息翻译,Telegram翻译消息内容,Telegram内置翻译,Telegram翻译机器人,TG翻译,TG消息翻译,TG翻译消息内容,TG内置翻译,TG翻译机器人,电报翻译,电报消息翻译,电报翻译消息内容,电报内置翻译,电报翻译机器人
 ---
+
+# Telegram内置翻译功能开启教程：一键翻译外语消息
 
 本文介绍Telegram翻译消息内容的方法，如果您想要翻译客户端界面，请使用语言包，详情请参阅：[Telegram语言包](./language.html)。
 

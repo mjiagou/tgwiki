@@ -1,11 +1,21 @@
 ---
-title: 常见问题与解答
-description: 本文介绍了Telegram常见问题与解答，您可以在此处找到提问频率较高的问题，希望对您有所帮助。
+title: Telegram常见问题汇总 (FAQ)：登录、解封、汉化与私聊限制解答
+shortTitle: 常见问题FAQ
+description: 收不到验证码？账号被封禁？无法私聊陌生人？这里汇总了Telegram新手最常遇到的问题及详细解决方案索引，助你快速解决难题。
+icon: circle-question
+category:
+  - 常见问题
+tag:
+  - FAQ
+  - 问题汇总
+
 head:
   - - meta
     - name: keywords
       content: Telegram常见问题,Telegram常见问题与解答,Telegram FAQ,TG常见问题,TG常见问题与解答,TG FAQ,电报常见问题,电报常见问题与解答,电报FAQ
 ---
+
+# Telegram常见问题汇总 (FAQ)：登录、解封、汉化与私聊限制解答
 
 ## 注册登录相关
 

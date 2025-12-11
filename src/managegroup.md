@@ -1,11 +1,19 @@
 ---
-title: 管理群组
-description: 群组是一种常用的聊天方式，Telegram支持至多20万人的群组。本文介绍了Telegram管理群组的方法，开启话题功能，查看近期操作，设置成员权限以及创建邀请链接。
+title: Telegram群组管理进阶：权限设置、管理员添加与机器人辅助
+shortTitle: 群组管理
+description: 群主必看！如何设置群员禁言权限？怎么添加管理员？如何利用机器人自动管理群组？打造高质量电报社群。
+icon: list-check
+category:
+  - 进阶教程
+tag:
+  - 管理
 head:
   - - meta
     - name: keywords
       content: Telegram管理群组,Telegram群管理员,Telegram设置成员权限,Telegram群组邀请链接，Telegram群组近期操作,Telegram话题,TG管理群组,TG群管理员,TG设置成员权限,TG群组邀请链接,TG群组近期操作,TG话题,电报管理群组,电报群管理员,电报设置成员权限,电报群组邀请链接,电报群组近期操作,电报话题
 ---
+
+# Telegram群组管理进阶：权限设置、管理员添加与机器人辅助
 
 ## 说明
 

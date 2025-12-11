@@ -1,11 +1,16 @@
 ---
-title: 内置搜索
-description: Telegram的内置搜索是以词组为单位的，以标点符号或空格作为词的间隔。本文介绍了Telegram内置搜索（消息搜索、全局搜索）的使用方法。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram搜索,Telegram内置搜索,Telegram消息搜索,Telegram全局搜索,Telegram关键词搜索,Telegram搜索技巧,TG搜索,TG内置搜索,TG消息搜索,TG全局搜索,TG关键词搜索,TG搜索技巧,电报搜索,电报内置搜索,电报消息搜索,电报全局搜索,电报关键词搜索,电报搜索技巧
+title: Telegram搜索技巧大全：如何高效寻找群组、频道和资源
+shortTitle: 搜索资源技巧
+description: Telegram怎么找群组？怎么搜索电影资源？本文分享Telegram的高级搜索命令和好用的第三方搜索引擎，助你快速找到想要的资源。
+icon: magnifying-glass
+category:
+  - 进阶教程
+tag:
+  - 搜索
+  - 资源
 ---
+
+# Telegram搜索技巧大全：如何高效寻找群组、频道和资源
 
 ## 消息搜索
 

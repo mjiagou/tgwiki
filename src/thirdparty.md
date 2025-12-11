@@ -1,11 +1,21 @@
 ---
-title: 第三方客户端
-description: 第三方客户端是指使用Telegram API编写的客户端。本文介绍了常见的Telegram第三方客户端，如Nekogram、Neko X、Nagram、MDGram、Nicegram、iMe Massager、Unigram、64Gram等。
+title: 盘点好用的Telegram第三方客户端 (Android/iOS)
+shortTitle: 第三方客户端
+description: 官方版功能不够用？本文推荐几款安全好用的Telegram第三方客户端（如Nagram, Turrit等），功能更强大。
+icon: mobile-screen
+category:
+  - 资源推荐
+tag:
+  - App
+  - 客户端
+
 head:
   - - meta
     - name: keywords
       content: Telegram第三方,Telegram第三方客户端,Telegram第三方客户端推荐,Telegram第三方客户端汇总,Telegram第三方客户端对比,TG第三方,TG第三方客户端,TG第三方客户端推荐,TG第三方客户端汇总,TG第三方客户端对比,电报第三方,电报第三方客户端,电报第三方客户端推荐,电报第三方客户端汇总,电报第三方客户端对比
 ---
+
+# 盘点好用的Telegram第三方客户端 (Android/iOS)
 
 第三方客户端是指使用Telegram API编写的客户端。本文介绍常见的Telegram第三方客户端，下载官方客户端请 [点击此处](https://telegram.org/apps) 。
 

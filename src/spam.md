@@ -1,11 +1,17 @@
 ---
-title: 解除私聊限制
-description: Telegram 给某人发送私聊消息时遇到如下提示：Sorry, you can only send messages to mutual contacts at the moment.本文介绍了Telegram如何解除私聊限制。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram解除私聊限制,Telegram无法私聊,Telegram双向限制,Telegram垃圾号码限制,Telegram私聊限制,TG解除私聊限制,TG无法私聊,TG垃圾号码限制,TG私聊限制,电报解除私聊限制,电报无法私聊,电报双向限制,电报垃圾号码限制,电报私聊限制,Telegram Spam
+title: 如何解除Telegram +86手机号双向私聊限制 (SpamBot申诉教程)
+shortTitle: 解除+86限制
+description: 中国+86手机号注册Telegram后无法主动私聊陌生人？显示“Sorry, you can only send messages to mutual contacts”？本文教你通过官方SpamBot机器人解除限制。
+icon: ban
+order: 3
+category:
+  - 基础教程
+tag:
+  - 解除限制
+  - SpamBot
 ---
+
+# 如何解除Telegram +86手机号双向私聊限制 (SpamBot申诉教程)
 
 Telegram 给某人发送私聊消息时遇到如下提示：
 `Sorry, you can only send messages to mutual contacts at the moment.`

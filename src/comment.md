@@ -1,11 +1,21 @@
 ---
-title: 评论功能
-description: 本文介绍了Telegram频道消息如何添加“评论功能。开启后，在频道发送的消息都会在消息下面显示"评论"按钮，点击即可评论当前频道消息，评论的消息也同步显示在关联群组中。
+title: Telegram频道开启评论功能教程：如何关联讨论群组 (Channel Comments)
+shortTitle: 频道评论
+description: 想让粉丝在Telegram频道里留言？教你如何通过关联讨论组(Discussion Group)为频道开启评论功能，增加粉丝互动。
+icon: comments
+category:
+  - 进阶教程
+tag:
+  - 频道
+  - 评论
+
 head:
   - - meta
     - name: keywords
       content: Telegram频道评论,Telegram评论,Telegram关联群组,Telegram讨论群组,TG频道评论,TG评论,TG关联群组,TG讨论群组,电报频道评论,电报评论,电报关联群组,电报讨论群组
 ---
+
+# Telegram频道开启评论功能教程：如何关联讨论群组 (Channel Comments)
 
 **开启方法**：`频道管理`->`关联群组`->`添加一个群组`
 

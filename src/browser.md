@@ -1,11 +1,21 @@
 ---
-title: 内置浏览器
-description: 新版Telegram中，添加了内置浏览器功能，用户可以直接使用内置浏览器在Telegram内打开任何链接，而无需跳转到外部浏览器。
+title: Telegram内置浏览器功能详解：链接预览、TON网站支持与缓存设置
+shortTitle: 内置浏览器
+description: Telegram新版内置浏览器有什么用？本文介绍如何在App内直接打开链接、查看即时预览(Instant View)以及如何清理浏览器缓存和Cookie。
+icon: compass
+category:
+  - 基础教程
+tag:
+  - 浏览器
+  - 链接预览
+
 head:
   - - meta
     - name: keywords
       content: Telegram内置浏览器,Telegram浏览器,Telegram链接预览,TG内置浏览器,TG浏览器,TG链接预览,电报内置浏览器,电报浏览器,电报链接预览
 ---
+
+# Telegram内置浏览器功能详解：链接预览、TON网站支持与缓存设置
 
 新版Telegram中，添加了内置浏览器功能，用户可以直接使用内置浏览器在Telegram内打开任何链接，而无需跳转到外部浏览器。
 

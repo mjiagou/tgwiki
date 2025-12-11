@@ -1,11 +1,21 @@
 ---
-title: 私聊机器人搭建
-description: 部分账号可能会有双向限制，无法直接发起私聊，这时候可能就需要一个私聊机器人。本文介绍了Telegram搭建私聊机器人的方法，无需服务器即可直接搭建。
+title: Livegram Bot搭建教程：免费创建Telegram私聊反馈机器人
+shortTitle: 私聊机器人
+description: 很多频道主都在用的私聊机器人！教你使用Livegram Bot搭建一个专属的反馈机器人，保护个人账号隐私，高效回复粉丝消息。
+icon: headset
+category:
+  - 运营工具
+tag:
+  - 机器人
+  - 客服
+
 head:
   - - meta
     - name: keywords
       content: Telegram私聊机器人,Telegram双向机器人,Telegram消息转发机器人,Telegram机器人,TG私聊机器人,TG双向机器人,TG消息转发机器人,TG机器人,电报私聊机器人,电报双向机器人,电报消息转发机器人,电报机器人
 ---
+
+# Livegram Bot搭建教程：免费创建Telegram私聊反馈机器人
 
 部分账号可能会有双向限制，无法直接发起私聊，这时候可能就需要一个私聊机器人。同时，私聊机器人还可以用作投稿，防止垃圾信息骚扰。
 
@@ -17,7 +27,7 @@ head:
 
 ## 步骤
 
-1. 首先，请先 [按照教程](./createrobot.html.html) 创建一个机器人。
+1. 首先，请先 [按照教程](./createrobot.html) 创建一个机器人。
 
 2. 私聊 [@LivegramBot](https://t.me/LivegramBot) ，并选择一个语言。
 

@@ -1,11 +1,16 @@
 ---
-title: 删除账号
-description: 本文介绍了如何删除您的Telegram账号，包括手动删除账号、自动删除账号。访问TGwiki - Telegram知识库，了解更多Telegram使用技巧。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram删除账号,Telegram删号,Telegram注销账号,Telegram注销,TG删除账号,TG删号,TG注销账号,TG注销,电报删除账号,电报删号,电报注销账号,电报注销,Telegram设置,TGwiki,Telegram知识库
+title: Telegram注销账号教程：如何永久删除电报账户 (自动/手动)
+shortTitle: 注销账号
+description: 不想用Telegram了？本文教你如何设置“自动销毁”期限，或者通过官方注销链接立即永久删除Telegram账号。
+icon: trash
+category:
+  - 常见问题
+tag:
+  - 注销
+  - 删除账号
 ---
+
+# Telegram注销账号教程：如何永久删除电报账户 (自动/手动)
 
 * 手动删除账号，立即生效：
   

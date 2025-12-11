@@ -5,13 +5,18 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: '一个机场玩转Telegram教程知识库',
+  title: '电报宝典 | Telegram电报中文知识库 & 使用指南',
   shouldPrefetch: false,
-  description: 'TGwiki (Telegram Wiki) - Telegram知识库，由TGNAV打造的高质量Telegram知识库，汇集了Telegram常用功能介绍和使用说明，帮助用户更全面地了解Telegram的各种功能。',
+  description: '电报宝典 | Telegram电报中文知识库 & 使用指南，是一个由 ygjc.cc 打造的高质量 Telegram (电报/纸飞机) 中文知识库。提供从下载安装、账号注册、汉化中文语言包、解除+86私聊限制、收不到验证码解决，到频道群组推荐、机器人开发及会员开通的全方位教程。新手入门 Telegram 的最佳指南。',
   head: [
     ['meta', { name: 'image', content: '/assets/tgwiki.png' }],
     ['link', { rel: 'icon', href: '/assets/logo.png' }],
     ['script', {async: true, src: 'https://telegram.org/js/telegram-web-app.js' }],
+    ['meta', { name: 'keywords', content: 'Telegram, 电报, 纸飞机, TG, Telegram中文, Telegram汉化, Telegram下载, Telegram注册, 收不到验证码, 解除双向限制, +86限制, Telegram群组, Telegram频道, Telegram机器人, TGwiki, 隐私设置, 电报会员' }],
+    ['meta', { property: 'og:site_name', content: '电报宝典 | Telegram电报中文知识库' }],
+    ['meta', { property: 'og:title', content: '电报宝典 | Telegram电报中文知识库 & 使用指南' }],
+    ['meta', { property: 'og:description', content: '小白也能看懂的 Telegram 电报全方位指南，解决汉化、注册、解封等所有难题。' }],
+    ['meta', { property: 'og:image', content: '/assets/logo.png' }],
 [
   'script', 
   { type: 'text/javascript' }, 

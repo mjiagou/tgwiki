@@ -146,7 +146,7 @@ export default navbar([
     ],
   },
   {
-    text: "一个机场玩转Telegram教程",
+    text: "电报宝典 | Telegram电报中文知识库 & 使用指南",
     icon: "compass",
     link: "https://tg.ygjc.cc/"
   }

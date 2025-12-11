@@ -1,11 +1,21 @@
 ---
-title: 内容审查
-description: Telegram于2025年初加强了内容审查，并对违反用户协议的频道/群组（包括色情、暴力、版权问题等）进行限制，严重的会直接删除。本文介绍了Telegram的内容审查制度，
+title: Telegram 内容审核机制详解：什么内容会被封禁？
+shortTitle: 审核机制
+description: Telegram真的不审核内容吗？本文揭秘Telegram的内容审查边界，包括反恐、儿童色情及版权侵权的处理机制。
+icon: gavel
+category:
+  - 政策法规
+tag:
+  - 审核
+  - 封禁
+
 head:
   - - meta
     - name: keywords
       content: Telegram审查,Telegram内容审查,Telegram检测非法内容,Telegram用户举报,Telegram封禁,TG审查,TG内容审查,TG检测非法内容,TG用户举报,TG封禁,电报审查,电报内容审查,电报检测非法内容,电报用户举报,电报封禁
 ---
+
+# Telegram 内容审核机制详解：什么内容会被封禁？
 
 ## 内容审查制度
 

@@ -1,11 +1,16 @@
 ---
-title: 解除敏感内容限制
-description: Telegram加群/频道时遇到提示：This channel can't be displayed because it was used to spread pornographic content.本文介绍了Telegram如何解除敏感内容限制。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram解除敏感内容限制,Telegram无法加群,Telegram无法加频道,Telegram敏感内容,Telegram进入限制群,TG解除敏感内容限制,TG无法加群,TG无法加频道,TG敏感内容,TG进入限制群,电报解除敏感内容限制,电报无法加群,电报无法加频道,电报敏感内容,电报进入限制群
+title: iOS苹果手机解除Telegram敏感内容限制教程 (开启老司机模式)
+shortTitle: 解除敏感限制
+description: 苹果iPhone手机Telegram无法查看群组内容？显示“This channel can't be displayed”？教你如何通过网页端开关解除iOS敏感内容限制。
+icon: eye-slash
+category:
+  - 进阶教程
+tag:
+  - iOS
+  - 敏感内容
 ---
+
+# iOS苹果手机解除Telegram敏感内容限制教程 (开启老司机模式)
 
 Telegram如果你进入某个群或频道遇到如下提示：
 ```This channel can't be displayed because it was used to spread pornographic content.```

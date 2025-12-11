@@ -1,14 +1,17 @@
 ---
-title: 中文语言包
-lang: zh-CN
-description: 本文分类整理了Telegram中文语言包，支持Telegram官方客户端（不包含网页版）和部分第三方客户端。点击相应链接即可安装语言包，将界面汉化为中文。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram中文语言包,Telegram语言包,Telegram中文,Telegram汉化,TG中文语言包,TG语言包,TG中文,TG汉化,电报中文语言包,电报语言包,电报中文,电报汉化
+title: Telegram中文汉化包下载与设置教程 (iOS/Android/PC)
+shortTitle: 汉化中文
+description: Telegram官方没有中文？这里提供Telegram中文语言包下载链接，教你如何一键汉化Telegram界面，支持手机版和电脑版。
+icon: language
+order: 2
+category:
+  - 基础教程
+tag:
+  - 汉化
+  - 语言包
 ---
 
-# Telegram 中文语言包
+# Telegram中文汉化包下载与设置教程 (iOS/Android/PC)
 
 点击相应链接即可安装语言包，将界面汉化为中文。
 

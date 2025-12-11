@@ -1,11 +1,20 @@
 ---
-title: 慢速模式
-description: 慢速模式是群的一个功能，群组开启慢速模式后，群成员一段时间内只能发送一条消息。本文介绍了慢速模式的特性和开启方法。
+title: Telegram群组慢速模式(Slow Mode)设置教程：防止刷屏神器
+shortTitle: 慢速模式
+description: 群里消息太多刷屏怎么办？教你开启Telegram慢速模式，限制群员发言频率，有效维护群组聊天秩序。
+icon: hourglass
+category:
+  - 进阶教程
+tag:
+  - 群组
+  - 防刷屏
 head:
   - - meta
     - name: keywords
       content: Telegram慢速模式,Telegram消息时间间隔,TG慢速模式,TG消息时间间隔,电报慢速模式,电报消息时间间隔
 ---
+
+# Telegram群组慢速模式(Slow Mode)设置教程：防止刷屏神器
 
 慢速模式是群的一个功能，一段时间内只能发送一条消息。
 

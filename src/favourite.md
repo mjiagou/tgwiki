@@ -1,11 +1,21 @@
 ---
-title: 收藏夹
-description: Telegram有一个多平台同步，内容格式不限的收藏夹。收藏夹内单个文件最大2000MB。本文介绍了如何使用Telegram收藏夹。
+title: Telegram“收藏夹” (Saved Messages) 高效使用指南
+shortTitle: 收藏夹技巧
+description: Telegram的“收藏夹”不仅能存文件，还能当网盘用！详解Saved Messages的高级用法，包括置顶、搜索和标签管理。
+icon: bookmark
+category:
+  - 基础教程
+tag:
+  - 收藏夹
+  - 云盘
+
 head:
   - - meta
     - name: keywords
       content: Telegram收藏夹,Telegram保存消息,TG收藏夹,TG保存消息,电报收藏夹,电报保存消息
 ---
+
+# Telegram“收藏夹” (Saved Messages) 高效使用指南
 
 ## 特点
 

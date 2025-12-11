@@ -1,11 +1,21 @@
 ---
-title: 创建投票
-description: Telegram客户端官方已添加投票功能，可以实时显示投票人数和比例。本文介绍了Telegram如何创建投票，以及投票有关功能说明。
+title: Telegram投票(Poll)功能教程：如何在群组和频道发起匿名投票
+shortTitle: 发起投票
+description: 想在群里做调研？教你如何使用Telegram内置的Poll功能发起公开或匿名投票，支持单选、多选和测验模式。
+icon: square-check
+category:
+  - 运营工具
+tag:
+  - 投票
+  - 互动
+
 head:
   - - meta
     - name: keywords
       content: Telegram投票,Telegram创建投票,Telegram发起投票,TG投票,TG创建投票,TG发起投票,电报投票,电报创建投票,电报发起投票
 ---
+
+# Telegram投票(Poll)功能教程：如何在群组和频道发起匿名投票
 
 ## 功能说明
 

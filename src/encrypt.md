@@ -1,11 +1,22 @@
 ---
-title: 加密对话
-description: 加密对话适用于那些比普通人更想要保密的人。加密对话中的所有消息都使用端到端加密。本文介绍了如何开启加密对话进行端到端加密聊天，以及设置消息自毁计时器。
+title: Telegram加密对话(Secret Chat)使用教程：开启端到端加密与阅后即焚
+shortTitle: 加密对话
+description: 担心聊天内容被泄露？教你开启Telegram端到端加密对话(Secret Chat)，设置消息阅后即焚计时器，确保隐私绝对安全。
+icon: user-secret
+category:
+  - 基础教程
+tag:
+  - 加密
+  - 隐私
+  - 阅后即焚
+
 head:
   - - meta
     - name: keywords
       content: Telegram加密对话,Telegram开启加密对话,Telegram端到端加密,TG加密对话,TG开启加密对话,TG端到端加密,Telegram加密秘钥,电报加密对话,电报开启加密对话,电报端到端加密,电报加密密钥
 ---
+
+# Telegram加密对话(Secret Chat)使用教程：开启端到端加密与阅后即焚
 
 加密对话适用于那些比普通人更想要保密的人。加密对话中的所有消息都使用端到端加密。这意味着只有您和收件人可以阅读这些消息，其他人都无法破译它们。除此之外，当您删除对话一方的消息时，加密对话另一方的应用程序也会被命令删除它们。
 

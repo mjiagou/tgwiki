@@ -1,11 +1,16 @@
 ---
-title: 邮箱登录
-description: 邮箱登录就是通过电子邮件获取验证码来登录Telegram账户，此功能可以在把验证码发送到Telegram客户端的情况下同时向邮箱发送一份验证码。本文介绍了如何开启Telegram邮箱登录，以及有关注意事项。
-head:
-  - - meta
-    - name: keywords
-      content: Telegram邮箱登录,Telegram绑定邮箱,Telegram开启邮箱登录,Telegram设置登录邮箱,TG邮箱登录,TG绑定邮箱,TG开启邮箱登录,TG设置登录邮箱,电报邮箱登录,电报绑定邮箱,电报开源邮箱登录,电报设置登录邮箱
+title: Telegram开启邮箱登录与两步验证 (2FA) 设置教程
+shortTitle: 邮箱登录/2FA
+description: 为你的Telegram账号加上双重保险！教你如何绑定邮箱并开启两步验证密码，防止账号被盗或手机号丢失无法登录。
+icon: envelope
+category:
+  - 基础教程
+tag:
+  - 安全
+  - 登录
 ---
+
+# Telegram开启邮箱登录与两步验证 (2FA) 设置教程
 
 ## 简介
 

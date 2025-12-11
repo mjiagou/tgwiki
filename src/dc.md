@@ -1,11 +1,20 @@
 ---
-title: DC说明
-description: Telegram在世界各地部署有5个数据中心（DC）。本文介绍了各个数据中心所在的地理位置，以及如何查看自己账号所在的数据中心（DC）。访问TGwiki - Telegram知识库，了解更多Telegram使用技巧。
+title: Telegram数据中心(DC)科普：如何查看账号所在的DC节点
+shortTitle: 数据中心DC
+description: 你的Telegram账号数据存储在哪里？教你如何查看账号所属的数据中心(DC1-DC5)，以及不同DC对速度的影响。
+icon: server
+category:
+  - 科普知识
+tag:
+  - DC
+  - 服务器
 head:
   - - meta
     - name: keywords
       content: Telegram数据中心,Telegram DC,Telegram DC说明,Telegram DC分配规则,Telegram查看所在DC,TG数据中心,TG DC,TG DC说明,TG DC分配规则,TG查看所在DC,电报数据中心,电报DC,电报DC说明,电报DC分配规则,电报查看所在DC
 ---
+
+# Telegram数据中心(DC)科普：如何查看账号所在的DC节点
 
 DC：Data Centers（数据中心），Telegram在世界各地部署有5个数据中心： 
 - DC1：美国迈阿密（Miami, USA）
