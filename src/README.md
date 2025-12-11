@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: 主页
+title: 电报宝典
 heroImage: ./assets/icon/logo.svg
 heroImageDark: ./assets/icon/logo2.svg
 bgImage: ./assets/image/0-light.svg

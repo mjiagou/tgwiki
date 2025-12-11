@@ -5,7 +5,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: '电报宝典 | Telegram电报中文知识库 & 使用指南',
+  title: 'Telegram电报中文知识库 & 使用指南',
   shouldPrefetch: false,
   description: '电报宝典 | Telegram电报中文知识库 & 使用指南，是一个由 ygjc.cc 打造的高质量 Telegram (电报/纸飞机) 中文知识库。提供从下载安装、账号注册、汉化中文语言包、解除+86私聊限制、收不到验证码解决，到频道群组推荐、机器人开发及会员开通的全方位教程。新手入门 Telegram 的最佳指南。',
   head: [
