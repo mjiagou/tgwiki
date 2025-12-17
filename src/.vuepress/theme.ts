@@ -14,6 +14,7 @@ export default hopeTheme({
   docsDir: "src",
   copyright: false,
   breadcrumb: false,
+  editLink: false,
   navbar,   // 导航栏
   sidebar,  // 侧边栏
   footer: "Copyright © 2025 <a href='https://github.com/tgnav/tgwiki' target='_blank'>TGwiki</a> | Powered by <a href='https://ygjc.cc/' target='_blank'>ygjc.cc</a>",  // 页脚

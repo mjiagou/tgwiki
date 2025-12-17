@@ -48,6 +48,35 @@ export default navbar([
       },
     ],
   },
+  // --- 新增：热门专题下拉菜单 (Start) ---
+  {
+    text: "热门专题",
+    icon: "fire",
+    prefix: "/topics/",
+    children: [
+      {
+        text: "TON 生态与钱包",
+        icon: "wallet",
+        link: "ton/"
+      },
+      {
+        text: "群管机器人",
+        icon: "robot",
+        link: "bot/"
+      },
+      {
+        text: "小程序与游戏",
+        icon: "gamepad",
+        link: "game/"
+      },
+      {
+        text: "资源寻找与下载",
+        icon: "magnifying-glass",
+        link: "resource/"
+      },
+    ],
+  },
+  // --- 新增：热门专题下拉菜单 (End) ---
   {
     text: "常用功能",
     icon: "star",
