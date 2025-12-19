@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wiki.tgnav.org/sitemap.xml
+Sitemap: https://tg.ygjc.cc/sitemap.xml
