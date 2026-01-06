@@ -61,7 +61,7 @@ Telegram于`10.9.1`版本中推出了Telegram商业版（Telegram Business），
 
 ::: info
 
-有关Telegram Premium的说明请参阅 [此处](./premium.html) 。
+有关Telegram Premium的说明请参阅 [Premium](./premium.html) 。
 
 :::
 

@@ -29,7 +29,7 @@ head:
 
 ::: details 界面截图
 
-![tfa-browser1.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/browser1.jpg)
+![Telegram内置浏览器](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/browser1.jpg)
 
 :::
 
@@ -39,7 +39,7 @@ head:
 
 ::: details 操作演示
 
-![tfa-browser2.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/browser2.jpg)
+![Telegram内置浏览器](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/browser2.jpg)
 
 :::
 
