@@ -1,0 +1,25 @@
+import * as vue from 'vue';
+import { PropType, VNode, SlotsType } from 'vue';
+import { Slot } from '@vuepress/helper/client';
+import { P as PwaPluginLocaleConfig } from '../types-B0Ty8tPv.js';
+
+declare const PwaReadyPopup: vue.DefineComponent<vue.ExtractPropTypes<{
+    /** locale data */
+    locales: {
+        type: PropType<PwaPluginLocaleConfig>;
+        required: true;
+    };
+}>, () => VNode, {}, {}, {}, vue.ComponentOptionsMixin, vue.ComponentOptionsMixin, {}, string, vue.PublicProps, Readonly<vue.ExtractPropTypes<{
+    /** locale data */
+    locales: {
+        type: PropType<PwaPluginLocaleConfig>;
+        required: true;
+    };
+}>> & Readonly<{}>, {}, SlotsType<{
+    default?: Slot<{
+        isReady: boolean;
+        reload: () => void;
+    }>;
+}>, {}, {}, string, vue.ComponentProvideOptions, true, {}, any>;
+
+export { PwaReadyPopup };

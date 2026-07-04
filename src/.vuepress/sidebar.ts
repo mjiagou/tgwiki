@@ -63,6 +63,7 @@ export default sidebar({
         { text: "创建贴纸", icon: "face-smile", link: "createsticker.md" },
         { text: "创建机器人", icon: "robot", link: "createrobot.md" },
         { text: "内置浏览器", icon: "compass", link: "browser.md" },
+        { text: "视频通话", icon: "video", link: "video-call.md" },
       ],
     },
 
