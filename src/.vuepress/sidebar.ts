@@ -79,6 +79,7 @@ export default sidebar({
         { text: "频道/群组助推", icon: "rocket", link: "boost.md" },
         { text: "频道开启评论", icon: "comments", link: "comment.md" },
         { text: "第三方客户端", icon: "mobile-screen", link: "thirdparty.md" },
+        { text: "话题群组", icon: "comments", link: "forum.md" },
       ],
     },
 
