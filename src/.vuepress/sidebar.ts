@@ -33,6 +33,12 @@ export default sidebar({
           prefix: "resource/",
           children: "structure", // 自动读取 topics/resource/ 下的文章
         },
+        {
+          text: "礼物系统",
+          icon: "gift",
+          prefix: "gift/",
+          children: "structure", // 自动读取 topics/gift/ 下的文章
+        },
       ],
     },
     

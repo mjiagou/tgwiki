@@ -51,6 +51,16 @@ export default defineUserConfig({
         crossorigin: 'anonymous'
       }
     ],
+    // Google Analytics (gtag.js)
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-B7D68BX58B' }],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-B7D68BX58B');`
+    ],
   ],
   theme,
 });
