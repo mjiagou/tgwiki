@@ -98,6 +98,7 @@ export default sidebar({
       children: [
         { text: "隐私设置", icon: "shield-halved", link: "privacy.md" },
         { text: "双重验证", icon: "lock", link: "2fa.md" },
+        { text: "高级隐私", icon: "user-ninja", link: "topics/privacy-advanced.md" },
         { text: "缓存与下载", icon: "broom", link: "download.md" },
         { text: "邮箱登录", icon: "envelope", link: "emaillogin.md" },
         { text: "收不到验证码", icon: "comment-slash", link: "notcomesms.md" },
