@@ -87,6 +87,7 @@ export default sidebar({
         { text: "频道开启评论", icon: "comments", link: "comment.md" },
         { text: "第三方客户端", icon: "mobile-screen", link: "thirdparty.md" },
         { text: "话题群组", icon: "comments", link: "forum.md" },
+        { text: "API入门", icon: "code", link: "api-intro.md" },
       ],
     },
 
