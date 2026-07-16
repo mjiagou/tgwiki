@@ -101,6 +101,7 @@ export default sidebar({
         { text: "双重验证", icon: "lock", link: "2fa.md" },
         { text: "高级隐私", icon: "user-ninja", link: "topics/privacy-advanced.md" },
         { text: "缓存与下载", icon: "broom", link: "download.md" },
+        { text: "数据导出", icon: "file-export", link: "data-export.md" },
         { text: "邮箱登录", icon: "envelope", link: "emaillogin.md" },
         { text: "收不到验证码", icon: "comment-slash", link: "notcomesms.md" },
         { text: "账号申诉/解封", icon: "ban", link: "banned.md" },

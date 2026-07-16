@@ -10,7 +10,7 @@
 - 侧边栏5大分类：热门专题、电报入门、基础操作、进阶玩法、账号与安全
 - 文章分类标签：基础教程、进阶教程、科普知识
 - 专题子目录：topics/ton/、topics/bot/、topics/game/、topics/resource/、topics/gift/
-- 文章总数：90+ 篇 Markdown
+- 文章总数：95+ 篇 Markdown
 
 ## 文章写作规范
 - Frontmatter: title, shortTitle, description, icon, category, tag
@@ -21,5 +21,5 @@
 
 ## 内容计划（2026-07-04 制定）
 核心文章4篇：视频通话 ✅、话题群组 ✅、2FA安全 ✅、简介排版 ✅
-拓展文章4篇：礼物系统 ✅、高级隐私 ✅、API入门 ✅、数据导出
+拓展文章4篇：礼物系统 ✅、高级隐私 ✅、API入门 ✅、数据导出 ✅
 执行周期：2026年7月4日-7月11日
