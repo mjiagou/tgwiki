@@ -551,3 +551,5 @@ Premium 不是必需品，但确实能提升使用体验。
 - [频道运营全攻略](./createchannel.md) — 从 0 到 1 做频道
 - [变现完全指南](./monetization.md) — 频道怎么赚钱
 - [Stars 星币指南](./stars.md) — Telegram 虚拟货币
+- [视频通话特权](./video-call.md) — Premium 的通话与屏幕共享增强
+- [礼物系统完全指南](./topics/gift/gifts.md) — 送礼、升级 NFT 与链上交易

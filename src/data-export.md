@@ -333,7 +333,7 @@ JSON 是结构化数据，适合：
 
 ::: tip 💡 关联阅读
 - 想清理缓存释放空间？请参阅 [缓存清理教程](./download.html)
-- 担心账号安全？请参阅 [账号安全完全指南](../security.html)
+- 担心账号安全？请参阅 [账号安全完全指南](./security.html)
 - 注销前了解风险？请参阅 [账号申诉与解封](./banned.html)
 - 需要程序化操作？请参阅 [API 开发者入门](./api-intro.html)
 :::
@@ -343,7 +343,7 @@ JSON 是结构化数据，适合：
 ## 相关文章
 
 - [缓存清理教程](./download.html)
-- [账号安全完全指南](../security.html)
+- [账号安全完全指南](./security.html)
 - [API 开发者入门](./api-intro.html)
 - [机器人创建教程](./createrobot.html)
 - [账号申诉与解封](./banned.html)

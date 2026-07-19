@@ -515,3 +515,4 @@ Boost 机制完整解析 → 参考 [频道助推教程](./boost.md)
 - [Combot 机器人教程](topics/bot/combot.md) — 积分排行 + 反垃圾
 - [慢速模式教程](./slowmode.md) — 控制发言频率
 - [频道助推教程](./boost.md) — Boost 等级与权益
+- [话题群组 (Forum) 教程](./forum.md) — 把大群拆成有序话题

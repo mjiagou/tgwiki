@@ -126,3 +126,9 @@ head:
 在找Telegram机器人推荐？请前往 [Telegram机器人导航](https://tgnav.ygjc.cc) 。
 
 :::
+
+::: tip
+
+想用代码深度定制机器人、接入 Webhook 或调用支付？请阅读 [API 开发者入门](./api-intro.html)，掌握 Bot API 与进阶玩法。
+
+:::

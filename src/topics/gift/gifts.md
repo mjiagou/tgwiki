@@ -312,7 +312,7 @@ Telegram 礼物系统将社交互动与区块链收藏巧妙结合：
 
 ## 相关文章
 
-- [Telegram Premium 会员详解](../premium.html)
-- [频道助推 (Boost) 指南](../boost.html)
-- [TON 钱包入门](./wallet.html)
-- [Telegram Stars 与小程序经济](../business.html)
+- [Telegram Premium 会员详解](../../premium.html)
+- [频道助推 (Boost) 指南](../../boost.html)
+- [TON 钱包入门](../ton/wallet.html)
+- [Telegram Stars 与小程序经济](../../business.html)

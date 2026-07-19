@@ -8,3 +8,6 @@ src/.vuepress/dist/
 src/.DS_Store
 .DS_Store
 **/.DS_Store
+.workbuddy
+.github
+.pnpm-store

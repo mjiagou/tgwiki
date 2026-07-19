@@ -355,3 +355,4 @@ Boost 本质上是**粉丝对你的支持和认可**。
 - [Premium 会员介绍](./premium.md) — Telegram Premium 有什么用
 - [频道变现指南](./monetization.md) — 频道怎么赚钱
 - [动态 (Stories) 教程](./stories.md) — 频道动态怎么发
+- [礼物系统完全指南](./topics/gift/gifts.md) — 送礼、升级 NFT 与链上交易
