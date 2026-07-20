@@ -574,3 +574,4 @@ Telegram的秘密聊天（Secret Chat）提供端到端加密：
 - [账号申诉与解封](./banned.md) — 账号被封后的处理流程
 - [联系官方](./contact.md) — 联系Telegram官方支持的方式
 - [高级隐私保护指南](./topics/privacy-advanced.md) — 匿名身份与反追踪进阶
+- [账号被盗与钓鱼自救](./hacked.md) — 强退异常会话与账号紧急恢复
