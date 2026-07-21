@@ -175,8 +175,24 @@ export default navbar([
     ],
   },
   {
-    text: "电报宝典 | Telegram电报中文知识库 & 使用指南",
-    icon: "compass",
-    link: "https://tg.ygjc.cc/"
+    text: "关于",
+    icon: "circle-info",
+    children: [
+      {
+        text: "关于我们",
+        icon: "info-circle",
+        link: "/about.html"
+      },
+      {
+        text: "隐私政策",
+        icon: "shield-halved",
+        link: "/privacy-policy.html"
+      },
+      {
+        text: "联系官方",
+        icon: "headset",
+        link: "/contact.html"
+      },
+    ],
   }
 ]);
