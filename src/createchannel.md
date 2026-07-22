@@ -433,3 +433,5 @@ Boost 机制完整解析 → 参考 [频道助推教程](./boost.md)
 - [频道助推教程](./boost.md) — Boost 等级与权益
 - [频道评论功能](./comment.md) — 开启评论互动
 - [创建群组教程](./creategroup.md) — 搭配群组做社群
+- [引流与推广指南](./promotion.md) — 频道/群组拉新与 SEO 实战
+

@@ -85,6 +85,7 @@ export default sidebar({
         { text: "私聊机器人", icon: "headset", link: "livegram.md" },
         { text: "频道/群组助推", icon: "rocket", link: "boost.md" },
         { text: "频道开启评论", icon: "comments", link: "comment.md" },
+        { text: "引流与推广", icon: "bullhorn", link: "promotion.md" },
         { text: "第三方客户端", icon: "mobile-screen", link: "thirdparty.md" },
         { text: "话题群组", icon: "comments", link: "forum.md" },
         { text: "API入门", icon: "code", link: "api-intro.md" },
