@@ -64,3 +64,11 @@ tag:
 `site:t.me "joinchat" 交流群`
 
 <!-- ![Google搜索语法找电报群示例](/assets/images/resource/google-search.jpg) -->
+
+---
+
+**相关阅读：**
+
+- [资源下载完全指南](./download-complete.md) — 大文件、字幕与第三方下载工具对比
+- [受限资源下载与导出](./download-tools.md) — 绕过群组限制提取媒体
+- [Z-Library 使用教程](./zlibrary.md) — 在电报中获取海量电子书

@@ -69,3 +69,6 @@ Telegram的消息是全平台全客户端自动同步的（除了加密对话）
 **相关阅读：**
 
 - [账号数据导出完全指南](./data-export.md) — 把聊天记录与媒体完整备份出来
+- [资源下载完全指南](./topics/resource/download-complete.md) — 大文件传输、字幕获取与下载工具推荐
+- [受限资源下载与导出](./topics/resource/download-tools.md) — 绕过群组/频道限制提取媒体的技巧
+
