@@ -526,5 +526,6 @@ Tonkeeper 是进入 TON 生态的钥匙。
 - [Telegram 内置钱包教程](./wallet.html) — 小额支付、P2P 交易
 - [DEX 交易入门指南](./dex.html) — 用 TON 买其他代币
 - [转账失败排查指南](./trans-fail.html) — 转账没到账怎么办
+- [TON DeFi 深度指南](./defi-guide.md) — 质押、挖矿与被动收益策略
 - [Fragment 平台教程](../fragment.html) — 购买匿名号码
 - [热门游戏与空投指南](../game/games.html) — Telegram 热门游戏

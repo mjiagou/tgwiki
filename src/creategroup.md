@@ -511,8 +511,10 @@ Boost 机制完整解析 → 参考 [频道助推教程](./boost.md)
 **相关阅读：**
 
 - [创建频道教程](./createchannel.md) — 搭配频道做内容
-- [Miss Rose 机器人教程](topics/bot/rose.md) — 全能群管神器
-- [Combot 机器人教程](topics/bot/combot.md) — 积分排行 + 反垃圾
+- [Miss Rose 机器人教程](./topics/bot/rose.md) — 全能群管神器
+- [Combot 机器人教程](./topics/bot/combot.md) — 积分排行 + 反垃圾
+- [群管机器人对比指南](./topics/bot/bot-comparison.md) — Rose、Combot、XiaoYi 等多维度对比选择
 - [慢速模式教程](./slowmode.md) — 控制发言频率
+
 - [频道助推教程](./boost.md) — Boost 等级与权益
 - [话题群组 (Forum) 教程](./forum.md) — 把大群拆成有序话题

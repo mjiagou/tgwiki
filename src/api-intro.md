@@ -641,5 +641,7 @@ Bot API 限制：发送 50MB，接收 20MB。如需更大文件，使用 MTProto
 - [机器人创建教程](./createrobot.html)
 - [私聊机器人搭建](./livegram.html)
 - [Premium 会员](./premium.html)
-- [礼物系统](./topics/gift/gifts.html)
+- [礼物系统](./topics/gift/gifts.md)
 - [频道助推](./boost.html)
+- [AI 机器人完全指南](./topics/ai/ai-bots.md)
+

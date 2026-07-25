@@ -368,4 +368,6 @@ DEX 是加密世界的双刃剑，它给你自由，也把风险交给了你自�
 - [Tonkeeper 钱包教程](./ton.md) — 去中心化钱包入门
 - [官方内置钱包教程](./wallet.md) — Telegram @Wallet 使用指南
 - [转账没到账怎么办？](./trans-fail.md) — 忘记填 Memo 的找回方法
+- [TON DeFi 深度指南](./defi-guide.md) — 流动性挖矿、LP 与收益策略
 - [谨防诈骗](../../scam.md) — 常见骗局与防范
+

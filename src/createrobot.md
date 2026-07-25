@@ -132,3 +132,9 @@ head:
 想用代码深度定制机器人、接入 Webhook 或调用支付？请阅读 [API 开发者入门](./api-intro.html)，掌握 Bot API 与进阶玩法。
 
 :::
+
+::: tip
+
+想了解 Telegram 上的 AI 聊天、绘画与翻译机器人，或者如何使用 Python 自建属于自己的 AI 机器人？请阅读 [AI 机器人完全指南](./topics/ai/ai-bots.md)。
+
+:::

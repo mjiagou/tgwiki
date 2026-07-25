@@ -553,3 +553,5 @@ Premium 不是必需品，但确实能提升使用体验。
 - [Stars 星币指南](./stars.md) — Telegram 虚拟货币
 - [视频通话特权](./video-call.md) — Premium 的通话与屏幕共享增强
 - [礼物系统完全指南](./topics/gift/gifts.md) — 送礼、升级 NFT 与链上交易
+- [AI 机器人完全指南](./topics/ai/ai-bots.md) — 热门聊天、绘画与自建 AI Bot
+
