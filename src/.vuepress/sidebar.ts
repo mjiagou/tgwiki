@@ -39,6 +39,12 @@ export default sidebar({
           prefix: "gift/",
           children: "structure", // 自动读取 topics/gift/ 下的文章
         },
+        {
+          text: "AI 机器人",
+          icon: "robot",
+          prefix: "ai/",
+          children: "structure", // 自动读取 topics/ai/ 下的文章
+        },
       ],
     },
     
