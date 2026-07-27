@@ -76,12 +76,24 @@ Telegram小程序（迷你应用程序）不仅仅是一个简单的工具，而
 
 6. 配置服务器并开发小程序
 
-   Telegram小程序支持丰富的前端功能，可以与用户进行交互。
+   Telegram小程序支持丰富的前端功能，可以与用户进行交互。你可以使用 Telegram 提供的 Web App JS SDK 来与 Telegram 客户端进行交互（如获取用户信息、触感反馈、拉起支付等）。
 
-   你可以使用Telegram提供的Web App API来与Telegram进行交互，例如发送和接收消息。
+::: tip 💡 完整开发实战教程
+想从零开始搭建你的第一个 Mini App？请参阅我们的深度实战教程：[Telegram Mini App 开发入门与实战](./topics/game/miniapp-dev.md)，包含前端环境配置、TON 钱包集成、支付功能以及简易积分商城项目代码。
+:::
 
 ::: info
 
-有关Telegram小程序开发的详细内容（代码细则，支持的API，用户交互等），请参阅 [Telegram Mini Apps官方文档](https://core.telegram.org/bots/webapps) 。
+有关 Telegram 小程序官方 API 规范，亦可参阅 [Telegram Mini Apps 官方文档](https://core.telegram.org/bots/webapps)。
 
 :::
+
+---
+
+## 相关阅读
+
+- [Telegram Mini App 开发入门与实战](./topics/game/miniapp-dev.md) — 零基础开发第一个小程序
+- [机器人创建教程](./createrobot.md) — 零基础创建 BotFather 机器人
+- [API 开发者入门](./api-intro.md) — Bot API 与 Telegram 开发全景
+- [热门小程序与工具汇总](./topics/game/tools.md) — 常用 Mini App 推荐
+

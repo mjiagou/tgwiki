@@ -385,7 +385,7 @@ Telegram 不只是聊天软件！通过各种工具小程序和机器人，你�
 ### Q6: 可以自己开发工具吗？
 
 可以！Telegram 开放了 Bot API 和 Mini App API，有编程基础的话可以自己开发。
-详见 [小程序开发入门](../miniapp.html) 和 [机器人创建教程](../createrobot.html)。
+详见 [Mini App 开发入门与实战](./miniapp-dev.md) 和 [机器人创建教程](../../createrobot.html)。
 
 ---
 
@@ -420,6 +420,8 @@ Telegram 不只是聊天软件！通过各种工具小程序和机器人，你�
 **相关阅读：**
 
 - [热门小程序与游戏排行榜](./games.html) — 游戏类小程序推荐
-- [小程序开发入门](../miniapp.html) — 想自己开发？
-- [机器人创建教程](../createrobot.html) — 从零创建自己的机器人
+- [Telegram Mini App 开发实战教程](./miniapp-dev.md) — 零基础搭建小程序与积分商城
+- [小程序使用与快速配置](../../miniapp.html) — 小程序基础功能与快捷启动
+- [机器人创建教程](../../createrobot.html) — 从零创建自己的机器人
 - [群管机器人推荐](../bot/rose.html) — 群组管理工具
+

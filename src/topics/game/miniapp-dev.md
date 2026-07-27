@@ -1155,3 +1155,4 @@ Telegram Mini App 生态正在快速发展，现在正是入场的好时机。
 - [TON DEX 交易指南](../ton/dex.md) — TON 生态应用
 - [热门小程序与游戏](./games.md) — 现成的小程序推荐
 - [空投游戏完全指南](./airdrop.md) — Tap-to-Earn 游戏介绍
+- [小程序基础使用指南](../../miniapp.md) — Telegram 小程序基础入口与演示

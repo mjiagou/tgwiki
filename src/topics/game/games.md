@@ -458,4 +458,6 @@ Telegram 小程序和游戏生态还在早期，机会很多，但坑也不少�
 - [TON 钱包入门指南](../ton/wallet.html) — 准备钱包收空投
 - [TON DEX 使用指南](../ton/dex.html) — 赚到币后怎么交易
 - [实用工具小程序推荐](./tools.html) — 更多效率工具
-- [小程序开发入门](../miniapp.html) — 想自己开发小程序？
+- [Telegram Mini App 开发教程](./miniapp-dev.md) — 想自己开发小游戏与小程序？
+- [小程序基础入门](../../miniapp.html) — 小程序使用与快速启动
+
