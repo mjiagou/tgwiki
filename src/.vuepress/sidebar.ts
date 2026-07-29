@@ -16,7 +16,7 @@ export default sidebar({
           children: "structure", // 自动读取 topics/ton/ 下的文章
         },
         {
-          text: "群管机器人",
+          text: "机器人",
           icon: "robot",
           prefix: "bot/",
           children: "structure", // 自动读取 topics/bot/ 下的文章
@@ -86,6 +86,7 @@ export default sidebar({
       icon: "wand-magic-sparkles",
       collapsible: true,
       children: [
+        { text: "年度功能盘点", icon: "calendar-star", link: "year-in-review.md" },
         { text: "Premium会员", icon: "gem", link: "premium.md" },
         { text: "Telegraph文章", icon: "pen-nib", link: "telegraph.md" },
         { text: "私聊机器人", icon: "headset", link: "livegram.md" },
