@@ -645,5 +645,7 @@ Bot API 限制：发送 50MB，接收 20MB。如需更大文件，使用 MTProto
 - [频道助推](./boost.html)
 - [AI 机器人完全指南](./topics/ai/ai-bots.md)
 - [Mini App 开发指南](./topics/game/miniapp-dev.md)
+- [自动化与无代码集成指南](./topics/automation/automation-guide.md)
+
 
 

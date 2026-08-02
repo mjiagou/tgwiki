@@ -480,5 +480,5 @@ Telegram 内置钱包让加密货币转账变得像发红包一样简单。
 - [Tonkeeper 去中心化钱包教程](./ton.html) — 大额资产存储
 - [DEX 交易入门指南](./dex.html) — 用 TON 买其他代币
 - [转账失败排查指南](./trans-fail.html) — 充值没到账怎么办
-- [Stars 星币完全指南](../stars.html) — Telegram 虚拟货币
+- [Stars 星币完全指南](../../stars.html) — Telegram 虚拟货币
 - [TON DeFi 深度指南](./defi-guide.md) — 质押、流动性挖矿与收益策略

@@ -380,7 +380,7 @@ Fragment 是 Telegram 官方的 NFT 平台，可以购买：
 4. 付款后 NFT 进入你的钱包
 
 ::: info 更多 Fragment 教程
-详见 [Fragment 平台使用教程](../fragment.html)。
+详见 [Fragment 平台使用教程](../../fragment.html)。
 :::
 
 ---
@@ -527,5 +527,5 @@ Tonkeeper 是进入 TON 生态的钥匙。
 - [DEX 交易入门指南](./dex.html) — 用 TON 买其他代币
 - [转账失败排查指南](./trans-fail.html) — 转账没到账怎么办
 - [TON DeFi 深度指南](./defi-guide.md) — 质押、挖矿与被动收益策略
-- [Fragment 平台教程](../fragment.html) — 购买匿名号码
+- [Fragment 平台教程](../../fragment.html) — 购买匿名号码
 - [热门游戏与空投指南](../game/games.html) — Telegram 热门游戏

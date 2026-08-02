@@ -45,6 +45,12 @@ export default sidebar({
           prefix: "ai/",
           children: "structure", // 自动读取 topics/ai/ 下的文章
         },
+        {
+          text: "自动化与集成",
+          icon: "gear",
+          prefix: "automation/",
+          children: "structure", // 自动读取 topics/automation/ 下的文章
+        },
       ],
     },
     
@@ -96,6 +102,9 @@ export default sidebar({
         { text: "第三方客户端", icon: "mobile-screen", link: "thirdparty.md" },
         { text: "话题群组", icon: "comments", link: "forum.md" },
         { text: "API入门", icon: "code", link: "api-intro.md" },
+        { text: "贴纸制作进阶", icon: "face-grin-stars", link: "sticker-advanced.md" },
+        { text: "主题美化进阶", icon: "palette", link: "theme-advanced.md" },
+        { text: "防搬运与版权保护", icon: "shield-halved", link: "copyright-protection.md" },
       ],
     },
 

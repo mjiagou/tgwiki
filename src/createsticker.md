@@ -93,3 +93,10 @@ head:
 - [@fStikBot](https://t.me/fStikBot)
 - [@WuMingv2Bot](https://t.me/WuMingv2Bot)
 - [@KyStkrBot](https://t.me/KyStkrBot)
+
+---
+
+**相关阅读：**
+
+- [贴纸与表情包进阶指南](./sticker-advanced.md) — 动态 Lottie 贴纸 (TGS)、WebM 视频贴纸与 Premium 自定义表情包制作
+
