@@ -1,504 +1,210 @@
 ---
-title: Telegram Stars 星币完全指南：充值、使用、提现与赠送礼物全攻略
-shortTitle: Stars星币支付
-description: Telegram星币(Stars)是什么？一文详解星币的充值方法、汇率、使用场景、提现流程以及赠送礼物功能，从入门到精通。
+title: Telegram Stars 星币完全指南：充值使用、内购接入、频道打赏与提现兑换
+shortTitle: Stars星币指南
+description: 什么是 Telegram Stars（星币）？本文详解 Stars 购买充值流程、应用内购买 (IAP) 接入规范、频道付费媒体与动态打赏、开发者汇率与 21 天保留期，以及通过 Fragment 提现为 TON 的完整步骤。
 icon: star
-order: 12
 category:
   - 进阶教程
+  - 开发者
 tag:
-  - 支付
   - Stars
   - 星币
-  - 打赏
-  - 礼物
-
+  - 充值
+  - 变现
+  - 内购
+  - Bot API
+  - Fragment
 head:
   - - meta
     - name: keywords
-      content: Telegram星币,Telegram Stars,Telegram礼物,Telegram打赏,Telegram赠送礼物,TG星币,TG Stars,TG礼物,TG打赏,TG赠送礼物,电报星币,电报Stars,电报礼物,电报打赏,电报赠送礼物
+      content: Telegram Stars,Telegram星币,TG星币,Telegram应用内购买,Telegram星币充值,Telegram星币提现,Telegram付费媒体,Telegram星币打赏,电报星币,电报Stars,Bot API XTR,Fragment星币提现
 ---
 
-# Telegram Stars 星币完全指南：充值、使用、提现与赠送礼物全攻略
+# Telegram Stars 星币完全指南：充值使用、内购接入、频道打赏与提现兑换
 
-Telegram Stars（星币）是 Telegram 官方推出的应用内虚拟货币，是连接用户和创作者的桥梁。无论是支持喜欢的内容创作者、购买数字商品，还是赠送礼物给好友，Stars 都能帮你实现。
+**Telegram Stars（星币）** 是 Telegram 官方于 2024 年推出的内购数字生态资产。通过符合 Apple App Store 与 Google Play 内购政策的规则设计，Stars 为 Telegram 上的小程序开发者、Bot 开发者以及频道创作者提供了一套合规且无缝的变现结算体系。
 
-本文将全面讲解 Stars 的所有功能，让你成为星币达人。
-
----
-
-## 一、什么是 Telegram Stars？
-
-### 1.1 定义与定位
-
-- **Telegram Stars** 是 Telegram 应用内使用的虚拟货币
-- 是 Telegram 生态系统的核心支付工具
-- 用于支持创作者、购买数字商品、赠送礼物等场景
-- 不可直接兑换法币，需通过 Fragment 平台兑换为 TON
-
-### 1.2 Stars 与 TON 的关系
-
-| 对比项 | Stars | TON (Toncoin) |
-|:---|:---|:---|
-| **类型** | 应用内虚拟货币 | 加密货币 |
-| **发行方** | Telegram 官方 | TON Foundation |
-| **流通范围** | Telegram 应用内 | 全球加密货币市场 |
-| **兑换关系** | 可兑换为 TON | 可兑换为法币 |
-| **用途** | 支付、打赏、礼物 | 投资、转账、支付 |
-
-**兑换流程：** `Stars` → `Fragment平台` → `TON` → `交易所` → `法币`
-
-### 1.3 Stars 的核心价值
-
-- **支持创作者**：用户可以直接打赏喜欢的频道/内容
-- **购买数字商品**：付费媒体、会员订阅、小程序服务
-- **社交互动**：赠送礼物、表达情感
-- **生态闭环**：从充值到消费到提现的完整流程
+本文将为你全面解析 Stars 的充值技巧、创作者打赏与付费媒体配置、开发者 API 接入代码，以及如何将积累的 Stars 提现为 TON 代币或转换为广告费。
 
 ---
 
-## 二、如何购买 Stars（充值）
-
-### 2.1 充值渠道
-
-| 渠道 | 适用平台 | 支付方式 |
-|:---|:---|:---|
-| **Apple Store** | iOS | Apple Pay / 信用卡 / 储蓄卡 |
-| **Google Play** | Android | Google Pay / 信用卡 / 储蓄卡 |
-| **@PremiumBot** | 全平台 | 多种支付方式 |
-
-### 2.2 充值步骤（以 @PremiumBot 为例）
-
-**步骤 1：打开 PremiumBot**
-
-搜索并进入 [@PremiumBot](https://t.me/PremiumBot)
-
-**步骤 2：选择购买 Stars**
-
-点击"Buy Stars"或类似选项
-
-**步骤 3：选择套餐**
-
-选择你想要购买的 Stars 数量
-
-**步骤 4：完成支付**
-
-选择支付方式，完成支付
-
-### 2.3 充值套餐与价格
-
-**注意：价格因地区而异，以下为参考价格**
-
-| Stars 数量 | 参考价格（美元） | 单价（美元/Star） |
-|:---|:---|:---|
-| 100 | $1.99 | $0.020 |
-| 500 | $9.99 | $0.020 |
-| 1000 | $19.99 | $0.020 |
-| 5000 | $99.99 | $0.020 |
-| 10000 | $199.99 | $0.020 |
-
-::: tip 提示
-批量购买没有折扣，单价都是约 $0.02/Star
-:::
-
-### 2.4 充值注意事项
-
-- **地区差异**：不同国家/地区价格可能不同
-- **支付方式**：部分地区支持支付宝、微信支付等本地支付方式
-- **充值到账**：通常即时到账，少数情况可能延迟几分钟
-- **退款政策**：一经购买，概不退还（除非是误操作且在短时间内申请）
-
----
-
-## 三、Stars 的使用场景
-
-### 3.1 支持创作者（星币回应）
-
-**什么是星币回应？**
-- 用户在帖子下方点击星币图标进行赞赏
-- 每次最低消耗 1 Star
-- 赞赏排行榜显示在帖子下方
-- 用户可以选择匿名赞赏
-
-**创作者收益：**
-- 频道所有者获得 **100%** 的 Stars
-- 无平台抽成
-- 收到后 21 天可提现
-
-**如何打赏？**
-1. 在帖子下方找到星币图标
-2. 点击选择打赏数量（1/5/10/50/100 Stars）
-3. 确认支付
-
-### 3.2 购买付费媒体
-
-**什么是付费媒体？**
-- 频道主发布的付费帖子
-- 用户需要用 Stars 购买才能查看
-- 价格由频道主设定
-
-**购买流程：**
-1. 在频道中看到付费帖子
-2. 点击"Unlock with Stars"
-3. 确认支付即可查看内容
-
-**定价参考：**
-
-| 内容类型 | 建议价格（Stars） |
-|:---|:---|
-| 短资讯/快讯 | 5-10 |
-| 深度文章/报告 | 20-50 |
-| 独家资源/工具 | 50-100 |
-| 视频教程 | 30-80 |
-
-### 3.3 订阅付费频道
-
-**什么是付费频道？**
-- 私密频道，需要付费加入
-- 按月/季度/年度订阅
-- 订阅后可以查看所有内容
-
-**订阅流程：**
-1. 点击频道加入链接
-2. 选择订阅类型（月/季/年）
-3. 用 Stars 支付订阅费用
-
-**定价参考：**
-
-| 订阅类型 | 建议价格（Stars） |
-|:---|:---|
-| 月度会员 | 100-500 |
-| 季度会员 | 250-1200 |
-| 年度会员 | 800-3000 |
-
-### 3.4 购买小程序服务
-
-**什么是小程序？**
-- Telegram Mini App
-- 在 Telegram 内运行的轻量级应用
-- 支持多种服务：游戏、工具、内容等
-
-**使用 Stars 购买：**
-- 游戏内购买道具
-- 订阅工具服务
-- 购买数字商品
-
-**热门小程序类型：**
-- **游戏类**：休闲游戏、策略游戏、NFT 游戏
-- **工具类**：AI 图像生成、视频编辑、文件转换
-- **内容类**：电子书、课程、资讯
-- **娱乐类**：表情包、头像、壁纸
-
-### 3.5 购买收藏用户名
-
-**什么是收藏用户名？**
-- 在 Fragment 平台上拍卖的短位用户名
-- 如 @admin、@bot、@news 等
-- 具有稀缺性和品牌价值
-
-**使用 Stars 购买：**
-- 在 Fragment 平台上参与拍卖
-- 用 Stars 支付拍卖保证金和成交款
-- 获得独特的用户名
-
----
-
-## 四、赠送礼物功能
-
-### 4.1 什么是 Telegram 礼物？
-
-- Telegram 推出的社交互动功能
-- 用户可以互相发送 Stars 礼物
-- 礼物带有动画效果和自定义消息
-- 可以在个人资料展示或出售
-
-### 4.2 礼物类型
-
-**普通礼物：**
-- 各种主题的虚拟礼物（节日、庆祝、日常等）
-- 价格从 50 Stars 到 5000 Stars 不等
-- 收到后可以出售获得部分 Stars
-
-**限量礼物：**
-- 限量发行的特殊礼物
-- 具有收藏价值
-- 可以升级为 NFT
-
-**NFT 礼物：**
-- 由限量礼物升级而来
-- 拥有唯一编号
-- 可以佩戴在个人资料上
-- 支持转让（需支付手续费）
-
-### 4.3 发送礼物步骤
-
-**步骤 1：打开聊天窗口**
-进入与好友的聊天界面
-
-**步骤 2：点击礼物图标**
-在输入框旁边找到礼物图标
-
-**步骤 3：选择礼物**
-浏览礼物列表，选择喜欢的礼物
-
-**步骤 4：添加消息（可选）**
-输入自定义祝福消息
-
-**步骤 5：发送**
-确认并发送礼物
-
-### 4.4 礼物相关规则
-
-**购买礼物：**
-- 用 Stars 购买礼物送给他人
-- 价格由 Telegram 官方设定
-
-**收到礼物：**
-- 可以选择展示在个人资料的"礼物"选项卡
-- 可以选择出售获得 Stars（售价低于购买价）
-- 例子：价值 50 Stars 的礼物出售后可获得约 43 Stars
-
-**NFT 升级：**
-- 部分限量礼物支持付费升级为 NFT
-- 升级后获得唯一编号
-- 可以转让给其他用户
-- 转让需要支付手续费
-
----
-
-## 五、Stars 提现流程
-
-### 5.1 提现条件
-
-**必须同时满足：**
-- 账户中有至少 **1000 Stars**
-- Stars 已经收到超过 **21 天**
-- 满足 Telegram 的内容创作者服务条款
-
-### 5.2 提现方式
-
-**方式一：通过 Fragment 兑换为 TON**
-
-```
-Stars → Fragment → TON
+## 一、什么是 Telegram Stars（星币）？
+
+Telegram Stars 是 Telegram 平台唯一的原生内购虚拟代币（代号 `XTR`）。
+
+```mermaid
+graph LR
+    User[用户购买 Stars] -->|Apple / Google IAP| TGApp[Telegram 钱包余额]
+    TGApp -->|付费解密| PaidMedia[频道付费媒体/帖子]
+    TGApp -->|应用内购| MiniApp[小程序/Bot 内购服务]
+    TGApp -->|星币回应| StarReaction[创作者打赏]
+    PaidMedia --> DevBalance[开发者/频道主 Stars 余额]
+    MiniApp --> DevBalance
+    StarReaction --> DevBalance
+    DevBalance -->|锁定 21 天| Fragment[Fragment 官方平台]
+    Fragment -->|兑换| TON[TON 加密货币 / 交易所提现]
+    Fragment -->|兑换| Ads[Telegram 广告费 零手续费]
 ```
 
-1. 进入频道设置 → 统计 → 收益
-2. 点击"Withdraw to Fragment"
-3. 选择兑换数量
-4. 确认兑换，Stars 转换为 TON
+### 1.1 核心应用场景
+1. **小程序/游戏数字商品购买**：购买游戏道具、解锁软件 VIP 会员或付费工具。
+2. **频道付费媒体 (Paid Media)**：频道主对高价值图片或视频设置星币解密，用户支付 Stars 后方可解锁查看。
+3. **星币回应打赏 (Star Reactions)**：读者在频道消息下方给创作者打赏 Stars。
+4. **星币抽奖与助推 (Giveaways & Boosts)**：频道主使用 Stars 举办抽奖，或通过获得星币打赏提升频道 Boost 助推等级（每打赏 500 Stars，频道自动获得 1 个 Boost）。
 
-**方式二：用于购买广告**
+---
 
-1. 进入 [Telegram 广告平台](https://ads.telegram.org/)
-2. 在支付方式中选择 Stars
-3. 用 Stars 购买广告
+## 二、普通用户：Stars 购买与充值教程
 
-**方式三：购买收藏用户名**
+### 2.1 移动端内购充值 (App Store / Google Play)
+在 iOS 或 Android 客户端中直接购买：
+- **操作路径**：`设置 (Settings)` -> `数据与存储 (Data and Storage)` -> `星币 (Telegram Stars)` -> 选择购买数量。
+- **价格说明**：由于 Apple 和 Google 抽取 30% 的内购服务费，在移动端直接充值单价稍高（约 50 Stars ≈ $0.99 美元）。
 
-1. 进入 [Fragment 平台](https://fragment.com/)
-2. 在拍卖中使用 Stars 支付
+### 2.2 优惠充值渠道 (Fragment / 桌面端)
+如果你希望避免 App Store 的 30% 溢价，可以通过去中心化或网页端优惠买币：
+1. **通过 Fragment 官方充值**：访问 [fragment.com/stars](https://fragment.com/stars)，连接你的 TON 钱包（如 Tonkeeper），直接使用 TON 购买 Stars，单价更低且支持大额充值。
+2. **桌面端与 Web 端**：在 Telegram Desktop 或网页端直接绑定信用卡通过 Stripe/Payment 机器人购买。
 
-**方式四：赠送 Premium 订阅**
+---
 
-1. 打开 [@PremiumBot](https://t.me/PremiumBot)
-2. 选择"Gift Premium"
-3. 用 Stars 为好友购买 Premium 订阅
+## 三、频道主与创作者：变现与打赏设置
 
-### 5.3 提现到法币流程
+### 3.1 发布付费媒体 (Paid Media)
+频道主可以将独家视频、高清照片、电子书或研报设置为付费内容：
+- **设置方式**：在发布媒体文件时，点击媒体右上角的 **「三个点/设置」** -> 选择 **「限制为付费内容 (Require Stars)」** -> 输入解锁所需的 Stars 数量（范围 1 ~ 2,500 Stars）。
+- **用户视角**：未付费前，媒体文件会显示高模糊遮罩与锁头图标，用户点击后弹窗确认支付 Stars，支付成功即刻永久解锁。
 
+### 3.2 开启星币回应打赏 (Star Reactions)
+让订阅者能够直接赞赏你的优质文章：
+- **开启路径**：进入「频道设置」 -> **「反应 (Reactions)」** -> 开启 **「星币回应 (Star Reactions)」**。
+- **收益归属**：读者被打赏的 Stars 100% 计入频道主的公会/收益账户。
+
+---
+
+## 四、开发者：Bot & Mini App 内购接入代码实战
+
+Telegram Bot API 内置了全套基于 `XTR` 货币的结算发票系统。
+
+### 4.1 发起 Stars 支付发票 (Python 示例)
+
+在 `python-telegram-bot` 框架中，创建 Stars 订单只需将 `currency` 设为 `"XTR"`，且将 `provider_token` 留空：
+
+```python
+from telegram import Update, LabeledPrice
+from telegram.ext import ApplicationBuilder, CommandHandler, PreCheckoutQueryHandler, ContextTypes
+
+async def send_stars_invoice(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    chat_id = update.effective_chat.id
+    title = "VIP 月度会员"
+    description = "解锁 AI 机器人的无限制对话高级功能"
+    payload = "user_vip_subscription_001" # 自定义内部订单 ID
+    currency = "XTR" # Telegram Stars 专属货币代码
+    price = 100 # 需支付的 Stars 数量 (100 Stars)
+    
+    prices = [LabeledPrice("VIP Membership", price)]
+
+    # 注意：使用 Stars 时，provider_token 必须留空或填入 ""
+    await context.bot.send_invoice(
+        chat_id=chat_id,
+        title=title,
+        description=description,
+        payload=payload,
+        provider_token="",
+        currency=currency,
+        prices=prices
+    )
+
+async def precheckout_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.pre_checkout_query
+    # 必须在 10 秒内响应预结账查询，确认库存与订单合法性
+    if query.invoice_payload != "user_vip_subscription_001":
+        await query.answer(ok=False, error_message="商品已售罄或订单无效")
+    else:
+        await query.answer(ok=True)
+
+def main():
+    app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+    app.add_handler(CommandHandler("buy", send_stars_invoice))
+    app.add_handler(PreCheckoutQueryHandler(precheckout_callback))
+    app.run_polling()
+
+if __name__ == '__main__':
+    main()
 ```
-Stars → Fragment → TON → 交易所 → 法币
+
+### 4.2 Web App / Mini App 端拉起支付
+在前端 React/Vue 中，通过调用 Official JS SDK 拉起原生产极简支付弹窗：
+
+```javascript
+// 在 Telegram Mini App 前端拉起 Stars 支付
+const invoiceUrl = "https://t.me/$invoice_link_generated_from_bot";
+
+Telegram.WebApp.openInvoice(invoiceUrl, (status) => {
+  if (status === 'paid') {
+    console.log('用户支付成功！');
+    // 刷新前端用户权限状态
+  } else if (status === 'cancelled') {
+    console.log('用户取消了支付');
+  } else {
+    console.error('支付失败：', status);
+  }
+});
 ```
 
-**详细步骤：**
+---
 
-1. **将 Stars 兑换为 TON**
-   - 在频道收益页面操作
-   - 或在 Fragment 平台操作
+## 五、收益结算与 Fragment 提现至 TON
 
-2. **将 TON 转入交易所**
-   - 选择支持 TON 的交易所（如 Binance、OKX）
-   - 提取 TON 到交易所地址
+当你作为开发者或频道主积累了 Stars 之后，可以通过 Telegram 官方合规区块链平台 **Fragment** 进行兑换变现。
 
-3. **在交易所兑换法币**
-   - 将 TON 卖出为 USDT 或其他稳定币
-   - 将稳定币提现为人民币/美元等
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Dev as 开发者 / 频道主
+    participant TG as Telegram 后台
+    participant Frag as Fragment 平台
+    participant Wall as Tonkeeper 钱包
 
-### 5.4 提现注意事项
+    Dev->>TG: 查看 Stars 累计余额 (满 1000 且满 21 天)
+    Dev->>Frag: 连接 Tonkeeper 钱包并登录登录账号
+    Frag->>TG: 校验权限与转账额度
+    Dev->>Frag: 点击 "Convert to TON" 或购买 Telegram 广告
+    Frag-->>Wall: 智能合约自动销毁 Stars，并释放 TON 至钱包
+```
 
-- **手续费**：提现和转账可能产生手续费
-- **汇率波动**：TON 价格会波动，提现时注意时机
-- **税务问题**：根据当地法规，可能需要申报收入
-- **安全问题**：确保交易所和钱包地址正确
+### 5.1 提现核心规则
+1. **最低提现门槛**：账户余额需达到 **1,000 Stars**。
+2. **21 天冻结锁定期 (Holding Period)**：收到用户的 Stars 后，出于防信用卡欺诈和退款保护，款项须在账户中停留 **21 天** 后方可转换为可提现状态。
+3. **换算汇率**：开发者提现时，Telegram 官方结算汇率约为 **100 Stars ≈ 1.30 ~ 1.50 美元**（实际以 TON 实时币价与兑换比例为准）。
+
+### 5.2 提取步骤
+1. **检查可提现余额**：
+   - 频道主：进入「频道设置」 -> 「统计与收益」 -> 「Stars」。
+   - Bot 开发者：私聊 [@BotFather](https://t.me/BotFather) -> 点击 `/mybots` -> 选择对应机器人 -> 「Bot Settings」 -> 「Payments」 -> 「Stars Revenue」。
+2. **绑定 Fragment**：在浏览器打开 [fragment.com](https://fragment.com)，点击右上角 **Connect TON Wallet** 并扫码连接你的 Tonkeeper 钱包。
+3. **兑换 TON 或转换为广告**：
+   - **兑换为 TON**：点击 **Convert to TON**，确认授权后智能合约会将 Stars 销毁并实时把 TON 代币发放至你的钱包。随后可转入 OKX/Binance 等交易所变现。
+   - **免手续费转广告费**：选择 **Buy Telegram Ads**，可以将 Stars 以 30% 额外的折扣直接充值入 Telegram 广告平台投放广告，无任何损耗。
 
 ---
 
-## 六、Stars 常见问题
+## 六、常见问题 FAQ
 
-### Q1: Stars 可以直接兑换为人民币吗？
+### Q1：Stars 会过期吗？
+**不会。** 无论是用户充值的还是创作者获得的 Stars，均永久存放在 Telegram 账户与公会余额中，不会过期。
 
-不可以。Stars 需要先兑换为 TON，再通过交易所兑换为法币。
+### Q2：为什么用户购买 100 Stars 花了 $2 美元，但创作者提现 100 Stars 只拿到约 $1.3 美元？
+中间的差价主要是 **Apple/Google 商店强行扣除的 30% 应用内购买渠道费**，以及必要的网络交易转账成本。为了减少损失，建议引导用户优先在网页端或使用 Fragment / PremiumBot 购买 Stars。
 
-### Q2: 购买的 Stars 可以退款吗？
-
-不可以。一经购买，概不退还。
-
-### Q3: Stars 会过期吗？
-
-不会。Stars 永久有效，没有过期时间。
-
-### Q4: 可以把 Stars 转给其他用户吗？
-
-不可以直接转账。但可以通过赠送礼物的方式间接转移（会有损耗）。
-
-### Q5: 礼物出售的价格为什么比购买价低？
-
-因为出售礼物时会扣除一定的费用，作为平台服务费。
-
-### Q6: NFT 礼物怎么转让？
-
-在个人资料的礼物选项卡中，选择要转让的 NFT 礼物，点击"Transfer"，输入接收方用户名即可。转让需要支付手续费。
-
-### Q7: Stars 充值支持哪些支付方式？
-
-取决于你的地区，通常支持：
-- 信用卡/储蓄卡（Visa、Mastercard）
-- Apple Pay / Google Pay
-- 部分地区支持支付宝、微信支付等本地支付方式
-
----
-
-## 七、安全使用指南
-
-### 7.1 账号安全
-
-- 启用两步验证（2FA）
-- 不要泄露账号密码
-- 定期检查登录设备
-
-### 7.2 防诈骗
-
-**常见诈骗手段：**
-- 冒充官方客服要求转账
-- 虚假的 Stars 充值网站
-- 声称可以低价购买 Stars
-- 虚假的提现服务
-
-**防范措施：**
-- 只通过官方渠道充值和提现
-- 不要点击不明链接
-- 不要相信"低价 Stars"的广告
-- 遇到可疑情况，向 Telegram 官方举报
-
-### 7.3 交易安全
-
-- 在 Fragment 平台交易时注意验证对方身份
-- NFT 转让时确认接收方地址正确
-- 大额交易前先测试小额交易
-
----
-
-## 八、进阶技巧
-
-### 8.1 最大化 Stars 价值
-
-**1. 合理消费**
-- 根据需求购买，不要冲动消费
-- 优先支持真正有价值的创作者
-
-**2. 关注优惠活动**
-- Telegram 有时会推出充值优惠
-- 关注官方公告和活动
-
-**3. 礼物投资**
-- 购买限量礼物，等待升值后出售
-- 关注 NFT 市场动态
-
-### 8.2 创作者技巧
-
-**1. 引导打赏**
-- 在内容中适当引导用户打赏
-- 感谢打赏用户，增加荣誉感
-
-**2. 优质内容**
-- 内容质量越高，打赏越多
-- 持续产出有价值的内容
-
-**3. 活动激励**
-- 举办打赏抽奖活动
-- 设置打赏排行榜奖励
-
-### 8.3 礼物赠送技巧
-
-**1. 节日祝福**
-- 在节日赠送节日主题礼物
-- 表达心意，增进感情
-
-**2. 重要时刻**
-- 生日、纪念日赠送礼物
-- 让对方感受到重视
-
-**3. 匿名赠送**
-- 如果不想显示名字，可以选择匿名
-- 给对方惊喜
-
----
-
-## 九、Stars 生态展望
-
-### 9.1 未来发展趋势
-
-- **更多使用场景**：Telegram 会不断拓展 Stars 的使用范围
-- **与 TON 深度整合**：Stars 和 TON 的互通会更加便捷
-- **NFT 生态繁荣**：礼物 NFT 市场会更加活跃
-- **跨平台支付**：可能支持更多外部支付方式
-
-### 9.2 对创作者的意义
-
-- **多元化收入**：除了广告分成，还有打赏和付费内容收入
-- **直接变现**：绕过第三方平台，直接获得收益
-- **用户互动**：通过打赏和礼物增加与用户的互动
-
-### 9.3 对用户的意义
-
-- **支持创作者**：可以直接支持喜欢的内容创作者
-- **数字消费**：在 Telegram 内完成各种数字消费
-- **社交表达**：通过礼物表达情感，增强社交互动
-
----
-
-## 十、总结
-
-Telegram Stars 不仅仅是一种虚拟货币，更是 Telegram 生态系统的核心纽带。它连接了创作者和用户，让内容变现变得简单直接。
-
-**对于用户：**
-- 通过 Stars 支持喜欢的创作者
-- 购买优质内容和数字商品
-- 赠送礼物，增进社交互动
-
-**对于创作者：**
-- 获得多元化的收入来源
-- 直接与用户建立经济联系
-- 激励创作更多优质内容
-
-**核心要点：**
-1. **充值**：通过 Apple Store、Google Play 或 @PremiumBot
-2. **使用**：打赏、付费媒体、会员订阅、小程序、礼物
-3. **提现**：通过 Fragment 兑换为 TON，再到交易所换法币
-4. **安全**：只使用官方渠道，注意防诈骗
-
-::: tip 最后想说
-Stars 是 Telegram 生态的重要组成部分，随着 Telegram 的发展，Stars 的价值和用途会越来越广泛。
-合理使用 Stars，既能支持创作者，也能提升自己的使用体验。
-祝你在 Telegram 的数字世界里玩得开心！🚀
-:::
+### Q3：如果用户在苹果应用商店退款，Stars 会怎样？
+如果用户向 Apple 发起恶意退款，Telegram 会自动扣回对应的 Stars 余额。若你的账户余额不足，账户可能暂时变成负数，因此 21 天的保护期就是为了防止恶意的撤单欺诈。
 
 ---
 
 **相关阅读：**
 
-- [Telegram 变现完全指南](./monetization.md) — 所有变现方式详解
-- [Fragment 交易平台](./fragment.md) — 域名交易与 TON 兑换
-- [频道运营完全指南](./createchannel.md) — 从零开始运营频道
-- [创建频道教程](./createchannel.md) — 搭建自己的频道
+- [Fragment 交易平台完全指南](./fragment.md) — 靓号交易、+888 匿名号与 Stars 提现
+- [频道变现完全指南](./monetization.md) — 广告分成、付费订阅与全方位变现
+- [API 开发者入门](./api-intro.md) — Bot API 接口与发票支付
+- [Telegram Mini App 开发实战](./topics/game/miniapp-dev.md) — 打造支持 Stars 支付的小程序

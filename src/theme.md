@@ -37,3 +37,10 @@ Telegram客户端可以设置各式各样的主题。
 ![tfa-theme.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/theme.jpg)
 
 :::
+
+---
+
+**相关阅读：**
+
+- [主题与界面美化进阶指南](./theme-advanced.md) — 动态夜间模式、`.tdesktop-theme` 与 `.attheme` 自制教程
+
