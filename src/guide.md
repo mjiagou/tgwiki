@@ -173,3 +173,10 @@ Telegram 中文圈2：[@tgzhcn](https://t.me/tgzhcn)
 查找更多Telegram优质频道/群组请访问 [TGNAV - Telegram频道群组导航](https://www.tgnav.org/) 。
 
 :::
+
+---
+
+**相关阅读：**
+
+- [隐藏功能与高手技巧大全](./power-tips.md) — 30+ 个让效率翻倍的 Telegram 隐藏秘技
+
