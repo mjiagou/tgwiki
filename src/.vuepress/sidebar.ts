@@ -107,6 +107,7 @@ export default sidebar({
         { text: "防搬运与版权保护", icon: "shield-halved", link: "copyright-protection.md" },
         { text: "Stars星币指南", icon: "star", link: "stars.md" },
         { text: "隐藏功能与技巧", icon: "wand-magic-sparkles", link: "power-tips.md" },
+        { text: "语音直播推流", icon: "broadcast-tower", link: "live-stream.md" },
       ],
     },
 
