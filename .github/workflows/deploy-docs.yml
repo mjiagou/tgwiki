@@ -52,3 +52,24 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
+
+  # 部署完成后，从 GitHub 的 IP 向 Bing/IndexNow 提交全站 URL，实现秒级收录
+  # （本地/沙箱出口 IP 常被 Bing 拦截，故挂在部署流程内、随站点上线后执行）
+  indexnow:
+    needs: deploy-gh-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: 等待 CDN 传播 key 文件
+        run: sleep 90
+
+      - name: 提交 IndexNow（通知 Bing 秒级收录）
+        continue-on-error: true
+        run: python3 scripts/submit-indexnow.py
