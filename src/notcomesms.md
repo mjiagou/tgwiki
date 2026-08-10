@@ -408,6 +408,8 @@ Telegram 支持绑定邮箱，以后登录时可以通过邮箱接收验证码�
 **相关阅读：**
 
 - [账号被封禁解封指南](./banned.html) — 如果号码被封
+- [虚拟号与海外手机号指南](./virtual-number.md) — 根本解决验证码拦截、eSIM / giffgaff 选型与无缝换号
 - [邮箱登录设置](./emaillogin.html) — 注册后必做
 - [两步验证设置](./2fa.html) — 保护账号安全
+
 - [账号安全指南](./security.html) — 全面安全建议
