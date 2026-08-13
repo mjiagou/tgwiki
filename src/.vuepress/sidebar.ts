@@ -108,6 +108,7 @@ export default sidebar({
         { text: "Stars星币指南", icon: "star", link: "stars.md" },
         { text: "隐藏功能与技巧", icon: "wand-magic-sparkles", link: "power-tips.md" },
         { text: "语音直播推流", icon: "broadcast-tower", link: "live-stream.md" },
+        { text: "Userbot 自动化", icon: "robot", link: "userbot.md" },
       ],
     },
 
