@@ -109,6 +109,9 @@ export default sidebar({
         { text: "隐藏功能与技巧", icon: "wand-magic-sparkles", link: "power-tips.md" },
         { text: "语音直播推流", icon: "broadcast-tower", link: "live-stream.md" },
         { text: "Userbot 自动化", icon: "robot", link: "userbot.md" },
+        { text: "频道与群组过户", icon: "right-left", link: "channel-transfer.md" },
+        { text: "数据统计与分析", icon: "chart-line", link: "channel-analytics.md" },
+        { text: "网页版 Web K 与 A", icon: "window-restore", link: "web-k-a.md" },
       ],
     },
 

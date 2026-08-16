@@ -436,6 +436,8 @@ Boost 机制完整解析 → 参考 [频道助推教程](./boost.md)
 - [引流与推广指南](./promotion.md) — 频道/群组拉新与 SEO 实战
 - [防搬运与版权保护指南](./copyright-protection.md) — 限制保存、零宽字符水印与 DMCA 投诉
 - [语音聊天室与直播推流指南](./live-stream.md) — 频道广播直播、OBS 推流与播客活动
+- [数据统计与分析指南](./channel-analytics.md) — 50人门槛解禁、算法推荐与流量拆解
+
 
 
 
