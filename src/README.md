@@ -2,10 +2,10 @@
 home: true
 icon: home
 title: 电报宝典
-heroImage: ./assets/icon/logo.svg
-heroImageDark: ./assets/icon/logo2.svg
-bgImage: ./assets/image/0-light.svg
-bgImageDark: ./assets/image/0-dark.svg
+heroImage: /assets/icon/logo.svg
+heroImageDark: /assets/icon/logo2.svg
+bgImage: /assets/image/0-light.svg
+bgImageDark: /assets/image/0-dark.svg
 bgImageStyle:
   background-attachment: fixed
   opacity: 0.1
