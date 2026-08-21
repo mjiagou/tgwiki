@@ -110,6 +110,6 @@ category:
 如果您对本隐私政策有任何疑问或担忧，请通过以下方式联系我们：
 
 - 主站：[ygjc.cc](https://ygjc.cc/)
-- GitHub：[tgnav/tgwiki](https://github.com/tgnav/tgwiki)
+- GitHub：[mjiagou/tgwiki](https://github.com/mjiagou/tgwiki)
 
 我们将在合理的时间内回复您的询问。

@@ -21,7 +21,7 @@ actions:
     icon: circle-question
     link: ./faq.html
 
-footer: Copyright © 2025 <a href="https://github.com/tgnav/tgwiki" target="_blank">TGwiki</a> | Powered by <a href="https://ygjc.cc/" target="_blank">ygjc.cc</a>
+footer: Copyright © 2025 <a href="https://github.com/mjiagou/tgwiki" target="_blank">TGwiki</a> | Powered by <a href="https://ygjc.cc/" target="_blank">ygjc.cc</a>
 ---
 
 ## 关于电报宝典

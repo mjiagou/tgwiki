@@ -112,6 +112,8 @@ export default sidebar({
         { text: "频道与群组过户", icon: "right-left", link: "channel-transfer.md" },
         { text: "数据统计与分析", icon: "chart-line", link: "channel-analytics.md" },
         { text: "网页版 Web K 与 A", icon: "window-restore", link: "web-k-a.md" },
+        { text: "商业版 CRM 与客服系统", icon: "head-side-headset", link: "business-crm.md" },
+        { text: "无限云盘与存储", icon: "cloud-arrow-up", link: "storage-cloud.md" },
       ],
     },
 

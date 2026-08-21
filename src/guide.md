@@ -142,7 +142,7 @@ Telegram平台上的常见骗术请参阅 [此处](./scam.html) 。提前了解�
 
 ## 文档维护
 
-本文档在 [GitHub](https://github.com/tgnav/tgwiki) 上开源，所有人均可以协助维护。
+本文档在 [GitHub](https://github.com/mjiagou/tgwiki) 上开源，所有人均可以协助维护。
 
 **如何参与维护文档？**
 

@@ -188,8 +188,10 @@ if __name__ == '__main__':
 **相关阅读：**
 
 - [Premium 会员介绍](./premium.md) — 开启商业版功能的前提条件
+- [商业版 CRM 与客服系统指南](./business-crm.md) — Chatwoot 多坐席分配、工单管理与自动打招呼
 - [AI 机器人完全指南](./topics/ai/ai-bots.md) — 了解如何通过自建 AI Bot 来全自动打理商业客户消息
 - [引流与推广指南](./promotion.md) — 利用商业版对话链接追踪客源并进行多渠道引流推广
+
 
 
 

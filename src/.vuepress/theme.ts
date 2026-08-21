@@ -7,17 +7,18 @@ export default hopeTheme({
   hostname: "https://tg.ygjc.cc",
   author: {
     name: "TGwiki",
+    url: "https://x.com/hasenbalg673018",
   },
   logo: "/assets/icon/logo.svg",
   logoDark: "/assets/icon/logo2.svg",
-  repo: "tgnav/tgwiki",
+  repo: "mjiagou/tgwiki",
   docsDir: "src",
   copyright: false,
   breadcrumb: false,
   editLink: false,
   navbar,   // 导航栏
   sidebar,  // 侧边栏
-  footer: "Copyright © 2025 <a href='https://github.com/tgnav/tgwiki' target='_blank'>TGwiki</a> | Powered by <a href='https://ygjc.cc/' target='_blank'>ygjc.cc</a>",  // 页脚
+  footer: "Copyright © 2025 <a href='https://github.com/mjiagou/tgwiki' target='_blank'>TGwiki</a> | Powered by <a href='https://ygjc.cc/' target='_blank'>ygjc.cc</a>",  // 页脚
   displayFooter: true,
   fullscreen: true,
   // 加密配置

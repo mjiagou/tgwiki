@@ -36,3 +36,10 @@ head:
 ![tfa-favourite.jpg](https://cdn.jsdelivr.net/gh/tgwiki/images/tfa/favourite.jpg)
 
 :::
+
+---
+
+**相关阅读：**
+
+- [Telegram 无限云盘与存储指南](./storage-cloud.md) — 2GB/4GB 切片上传、AList 挂载本地硬盘与无限存储
+

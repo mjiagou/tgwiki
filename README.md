@@ -34,6 +34,6 @@ TGwiki是Telegram Wiki的缩写，旨在打造一个开放、协作的Telegram�
 - 提交Pull Request
 - 管理员审核后将推送更新
 
+### 关注我们
 
-
-
+- X (Twitter)：[@hasenbalg673018](https://x.com/hasenbalg673018)

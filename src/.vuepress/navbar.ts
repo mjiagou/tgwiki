@@ -184,6 +184,11 @@ export default navbar([
         link: "/about.html"
       },
       {
+        text: "关注 X (Twitter)",
+        icon: "brands fa-x-twitter",
+        link: "https://x.com/hasenbalg673018"
+      },
+      {
         text: "隐私政策",
         icon: "shield-halved",
         link: "/privacy-policy.html"
