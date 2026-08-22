@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 // 从 vuepress-theme-hope 的客户端库导入 Layout 组件
 import { Layout } from "vuepress-theme-hope/client";
 import AiAssistant from '../components/aiAssistant.vue' 

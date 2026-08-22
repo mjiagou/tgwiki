@@ -1,27 +1,20 @@
 import { defineClientConfig } from 'vuepress/client';
 import Layout from "./layouts/Layout.vue";
 import aiLayout from "./layouts/aiLayout.vue";
+import VPCard from "./components/VPCard.vue";
 
 function reloadScript(url: string): void {
-  // 确保这段代码只在浏览器环境中执行，因为 'document' 和 'window' 在 Node.js (SSR) 中不存在
-  if (typeof window !== 'undefined') {
-    // 获取当前页面中所有的 script 标签
-    const scripts = document.getElementsByTagName('script');
+  // 确保只在浏览器环境中执行，避免 Node.js (SSR) 报错
+  if (typeof document !== 'undefined') {
+    // 查找并安全移除所有具有相同 URL 的旧 script 标签
+    const existingScripts = document.querySelectorAll(`script[src="${url}"]`);
+    existingScripts.forEach((script) => script.remove());
 
-    // 遍历现有的 script 标签，如果找到相同的 URL，则移除它
-    for (let i = scripts.length; i--;) {
-      // 使用严格相等 (===) 进行比较，并确保父节点存在，避免潜在错误
-      if (scripts[i].src === url && scripts[i].parentNode) {
-        scripts[i].parentNode.removeChild(scripts[i]);
-      }
-    }
-
-    // 创建一个新的 script 标签
+    // 创建并追加新的 script 标签
     const script = document.createElement('script');
-    script.src = url; // 设置脚本的 URL
-    script.async = true; // 异步加载脚本，避免阻塞页面渲染
+    script.src = url;
+    script.async = true;
 
-    // 确保 document.body 存在后，将新创建的 script 标签添加到 body 中
     if (document.body) {
       document.body.appendChild(script);
     }
@@ -31,10 +24,12 @@ function reloadScript(url: string): void {
 // 定义客户端配置
 export default defineClientConfig({
   layouts: {
+    Layout,
     aiLayout: aiLayout,
   },
   // enhance 钩子用于增强 Vue 应用实例、路由器等
   enhance({ app, router, siteData }) {
+    app.component("VPCard", VPCard);
     // router.beforeEach 钩子在路由切换前触发
     router.beforeEach((to, from) => {
       // 您的 beforeEach 逻辑，通常不涉及 DOM 操作，无需额外判断

@@ -116,7 +116,7 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge"],
     },
     icon: {
       assets: "fontawesome-with-brands",

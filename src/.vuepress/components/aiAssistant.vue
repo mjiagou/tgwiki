@@ -1,11 +1,17 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
+
+interface Message {
+  role: 'user' | 'assistant';
+  text: string;
+  isAI?: boolean;
+}
 
 // !!! 请将此地址替换为你真实的 AI API 地址 !!!
 const AI_API_URL = 'https://wikiapi.tgnav.org/ask'
 
 const question = ref('')
-const conversation = ref([
+const conversation = ref<Message[]>([
   { role: 'assistant', text: '您好！我是TGwikiAI，由TGwiki根据文档内容训练的AI助手。请问有什么可以帮助到您？', isAI: false }
 ])
 const isLoading = ref(false)
@@ -54,12 +60,13 @@ const submitQuestion = async () => {
     // 7. 添加 AI 回答到对话记录
     conversation.value.push({ role: 'assistant', text: aiAnswer, isAI: true })
     
-  } catch (error) {
+  } catch (error: any) {
     console.error('AI助手请求出错：', error)
     // 8. 处理错误，并提示用户
+    const errMsg = error instanceof Error ? error.message : String(error)
     conversation.value.push({ 
       role: 'assistant', 
-      text: `抱歉，尝试连接TGwikiAI时出错。错误信息：${error.message}。请检查您的网络环境或稍后重试。`,
+      text: `抱歉，尝试连接TGwikiAI时出错。错误信息：${errMsg}。请检查您的网络环境或稍后重试。`,
       isAI: false
     })
   } finally {
@@ -69,7 +76,7 @@ const submitQuestion = async () => {
   }
 }
 
-const formatMessage = (text) => {
+const formatMessage = (text?: string) => {
   if (!text) return ''
   
   // 替换所有换行符 \n 为 <br> 标签
