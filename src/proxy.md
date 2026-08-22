@@ -132,3 +132,9 @@ docker run -d -p 443:443 --name mtproto-proxy --restart=always \
 
 ### 4.2 警惕修改版内置代理客户端
 很多非官方的 Telegram “汉化版”、“特权版”客户端，宣称“内置免代理直连”。此类客户端通常被植入了恶意后门，能够绕过加密直接读取你的聊天记录，甚至自动给他人发送垃圾群发消息。**请务必只从官网或正规应用商店下载官方客户端**。
+
+---
+
+**相关阅读：**
+
+- [MTProto 代理自建与赞助频道进阶指南](./mtproto-advanced.md) — Fake-TLS 秘钥拼装、Docker 一键搭建与 @MTProxybot 频道置顶引流

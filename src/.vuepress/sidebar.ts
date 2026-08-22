@@ -114,6 +114,7 @@ export default sidebar({
         { text: "网页版 Web K 与 A", icon: "window-restore", link: "web-k-a.md" },
         { text: "商业版 CRM 与客服系统", icon: "head-side-headset", link: "business-crm.md" },
         { text: "无限云盘与存储", icon: "cloud-arrow-up", link: "storage-cloud.md" },
+        { text: "MTProto 代理与置顶频道", icon: "network-wired", link: "mtproto-advanced.md" },
       ],
     },
 
