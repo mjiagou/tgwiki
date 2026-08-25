@@ -208,3 +208,5 @@ sequenceDiagram
 - [频道变现完全指南](./monetization.md) — 广告分成、付费订阅与全方位变现
 - [API 开发者入门](./api-intro.md) — Bot API 接口与发票支付
 - [Telegram Mini App 开发实战](./topics/game/miniapp-dev.md) — 打造支持 Stars 支付的小程序
+- [限量礼物升级 NFT 与链上交易指南](./topics/gift/nft-gifts.md) — 礼物升级数字藏品与 Stars 折算回收
+
