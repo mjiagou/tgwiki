@@ -816,6 +816,7 @@ AI 正在重新定义我们与机器交互的方式。
 
 **相关阅读：**
 
+- [AI 机器人开发实战指南](./ai-bot-dev.md) — 接入 OpenAI / DeepSeek、流式打字与上下文记忆
 - [创建机器人教程](../../createrobot.md) — Telegram Bot 基础开发
 - [API 入门指南](../../api-intro.md) — Telegram Bot API 详解
 - [Telegram Business 指南](../../business.md) — 商业版 AI 客服集成

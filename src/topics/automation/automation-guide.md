@@ -1239,6 +1239,7 @@ if __name__ == "__main__":
 
 **相关阅读：**
 
+- [Flowerss Bot + RSSHub 频道全自动推流指南](./rss-tg-bot.md) — 打造 7x24 小时全网监控资讯频道
 - [Bot 开发实战教程](../bot/bot-dev-guide.md) — 从零开发 Telegram 机器人
 - [API 入门指南](../../api-intro.md) — Bot API 与 MTProto API
 - [AI 机器人完全指南](../ai/ai-bots.md) — 接入 AI 实现智能自动化
