@@ -126,6 +126,7 @@ export default sidebar({
       children: [
         { text: "隐私设置", icon: "shield-halved", link: "privacy.md" },
         { text: "双重验证", icon: "lock", link: "2fa.md" },
+        { text: "加密对话", icon: "user-secret", link: "encrypt.md" },
         { text: "高级隐私", icon: "user-ninja", link: "topics/privacy-advanced.md" },
         { text: "缓存与下载", icon: "broom", link: "download.md" },
         { text: "数据导出", icon: "file-export", link: "data-export.md" },

@@ -214,6 +214,8 @@ Telegram创始人Durov的账号曾因长期未上线而被系统删除，Durov�
 
 **相关阅读：**
 
+- [端到端加密对话完全指南](./encrypt.md) — 开启 Secret Chat、MTProto 密码学与阅后即焚
 - [高级隐私保护指南](./topics/privacy-advanced.html) — 匿名号码、反追踪与数据最小化
 - [双重验证完全指南](./2fa.html) — 2FA 详细设置教程
+
 
