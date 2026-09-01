@@ -133,6 +133,7 @@ export default sidebar({
         { text: "邮箱登录", icon: "envelope", link: "emaillogin.md" },
         { text: "收不到验证码", icon: "comment-slash", link: "notcomesms.md" },
         { text: "虚拟号与海外卡", icon: "mobile-screen-button", link: "virtual-number.md" },
+        { text: "多账号与多开", icon: "users", link: "multiaccount.md" },
         { text: "账号申诉/解封", icon: "ban", link: "banned.md" },
         { text: "账号被盗自救", icon: "user-slash", link: "hacked.md" },
         { text: "解除私聊限制", icon: "user-slash", link: "spam.md" },

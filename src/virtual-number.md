@@ -171,5 +171,7 @@ graph LR
 
 - [Fragment 交易平台完全指南](./fragment.md) — 竞拍靓号与 +888 匿名号码
 - [Telegram 收不到验证码排查](./notcomesms.md) — 10 种验证码接收问题解决方案
+- [多账号管理与多开完全指南](./multiaccount.md) — 多账号共存、便携版隔离与防关联防封
 - [账号安全与 2FA 完全指南](./2fa.md) — 两步验证密码设置
+
 - [高级隐私保护指南](./topics/privacy-advanced.md) — 匿名身份与反追踪技巧
