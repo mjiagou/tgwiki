@@ -5,6 +5,7 @@
   "license": "GPL-3.0",
   "type": "module",
   "scripts": {
+    "dev": "vuepress-vite dev src",
     "build": "vuepress-vite build src",
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",

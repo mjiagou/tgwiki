@@ -2,6 +2,7 @@ import { defineClientConfig } from 'vuepress/client';
 import Layout from "./layouts/Layout.vue";
 import aiLayout from "./layouts/aiLayout.vue";
 import VPCard from "./components/VPCard.vue";
+import ArticleTopAd from "./components/ArticleTopAd.vue";
 
 function reloadScript(url: string): void {
   // 确保只在浏览器环境中执行，避免 Node.js (SSR) 报错
@@ -30,6 +31,7 @@ export default defineClientConfig({
   // enhance 钩子用于增强 Vue 应用实例、路由器等
   enhance({ app, router, siteData }) {
     app.component("VPCard", VPCard);
+    app.component("ArticleTopAd", ArticleTopAd);
     // router.beforeEach 钩子在路由切换前触发
     router.beforeEach((to, from) => {
       // 您的 beforeEach 逻辑，通常不涉及 DOM 操作，无需额外判断

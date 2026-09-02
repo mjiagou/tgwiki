@@ -1,12 +1,18 @@
 <script setup lang="ts">
 import { Layout } from "vuepress-theme-hope/client";
 import { usePageFrontmatter } from "vuepress/client";
+import ArticleTopAd from "../components/ArticleTopAd.vue";
 
 const frontmatter = usePageFrontmatter();
 </script>
 
 <template>
   <Layout>
+    <!-- 在文章页标题上方放置广告 -->
+    <template #pageTop>
+      <ArticleTopAd v-if="!frontmatter.home" />
+    </template>
+
     <!-- 通过 contentAfter 插槽在 Markdown 内容末尾添加 X (Twitter) 账号 -->
     <template #contentAfter>
       <div v-if="!frontmatter.home" class="article-x-follow-box">
