@@ -9,6 +9,12 @@ interface AdItem {
 }
 
 const ads: AdItem[] = [
+    {
+    name: "极速Cloud",
+    desc: "原生住宅宽带 9折: ikds88",
+    link: "https://191.101.132.80/#/register?code=OdBrieT3",
+    icon: "/logo/logo_png_under.png",
+  },
   {
     name: "闪跃机场",
     desc: "全场套餐 8折优惠码: shanyue",
@@ -17,16 +23,11 @@ const ads: AdItem[] = [
   },
   {
     name: "星岛梦",
-    desc: "IEPL高速专线 8折: XDM888",
+    desc: "IEPL高速专线 9折: nmw888",
     link: "https://y-m.top/go/xdm",
     icon: "/logo/xdm_logo.webp",
   },
-  {
-    name: "苏菲家宽",
-    desc: "原生住宅宽带 88折: newuser1008",
-    link: "https://y-m.top/go/sufi",
-    icon: "/logo/sufi_logo.webp",
-  },
+
 ];
 </script>
 
