@@ -101,6 +101,7 @@ export default sidebar({
         { text: "引流与推广", icon: "bullhorn", link: "promotion.md" },
         { text: "第三方客户端", icon: "mobile-screen", link: "thirdparty.md" },
         { text: "话题群组", icon: "comments", link: "forum.md" },
+        { text: "群组慢速模式", icon: "hourglass", link: "slowmode.md" },
         { text: "API入门", icon: "code", link: "api-intro.md" },
         { text: "贴纸制作进阶", icon: "face-grin-stars", link: "sticker-advanced.md" },
         { text: "主题美化进阶", icon: "palette", link: "theme-advanced.md" },
