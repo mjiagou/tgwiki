@@ -511,6 +511,7 @@ Boost 机制完整解析 → 参考 [频道助推教程](./boost.md)
 **相关阅读：**
 
 - [创建频道教程](./createchannel.md) — 搭配频道做内容
+- [频道开启评论教程](./comment.md) — 关联群组作为频道专属讨论区
 - [Miss Rose 机器人教程](./topics/bot/rose.md) — 全能群管神器
 - [Combot 机器人教程](./topics/bot/combot.md) — 积分排行 + 反垃圾
 - [群管机器人对比指南](./topics/bot/bot-comparison.md) — Rose、Combot、XiaoYi 等多维度对比选择
