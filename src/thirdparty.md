@@ -52,5 +52,7 @@ head:
 
 **相关阅读：**
 
+- [Telegram 消息翻译完全指南](./translate.md) — 官方内置翻译、整屏实时翻译与发送互译
 - [官方 Web K 与 Web A 网页版指南](./web-k-a.md) — 免安装浏览器使用、PWA 安装与 Web 性能对比
+
 

@@ -156,5 +156,7 @@ head:
 - [创建群组全攻略](./creategroup.md) — 零基础群组创建与基础配置
 - [群管机器人对比指南](./topics/bot/bot-comparison.md) — 比较 Rose、Combot 等机器人的核心功能与防垃圾效果
 - [慢速模式设置](./slowmode.md) — 限制群成员发言频率，维护群聊秩序
+- [查看群主与管理员指南](./findadmin.md) — 官方管理标识识别与防冒充客服骗局
+
 
 

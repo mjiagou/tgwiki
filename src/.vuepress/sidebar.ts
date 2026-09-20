@@ -76,6 +76,7 @@ export default sidebar({
       collapsible: true,
       children: [
         { text: "消息格式", icon: "paragraph", link: "format.md" },
+        { text: "消息翻译", icon: "language", link: "translate.md" },
         { text: "图片排版", icon: "image", link: "editphoto.md" },
         { text: "内置搜索", icon: "magnifying-glass", link: "search.md" },
         { text: "创建贴纸", icon: "face-smile", link: "createsticker.md" },
@@ -83,6 +84,7 @@ export default sidebar({
         { text: "内置浏览器", icon: "compass", link: "browser.md" },
         { text: "视频通话", icon: "video", link: "video-call.md" },
         { text: "简介排版", icon: "file-signature", link: "bio-editor.md" },
+        { text: "找群管理员", icon: "user-tie", link: "findadmin.md" },
       ],
     },
 
