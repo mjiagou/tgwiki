@@ -92,3 +92,12 @@ Telegraph默认URL = `https://telegra.ph`/`首次输入的标题`-`首次发表�
 1. 使用Markdown写文章，[点击此处查看Markdown基本语法](https://markdown.com.cn/basic-syntax/)
 2. 复制Markdown预览（不是源代码）
 3. 粘贴到`Telegraph`，即可快速排出精美的文章（不支持某些格式，例如多级项目列表）
+
+---
+
+**相关阅读：**
+
+- [Telegram 内置多标签浏览器完全指南](./browser.md) — 即时预览 (Instant View) 与 Web3 浏览
+- [格式化消息排版指南](./format.md) — 掌握 Markdown 与粗体斜体剧透格式
+- [创建公开频道指南](./createchannel.md) — 打造高质量自媒体专栏
+
