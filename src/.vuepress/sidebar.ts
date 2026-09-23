@@ -83,6 +83,7 @@ export default sidebar({
         { text: "创建机器人", icon: "robot", link: "createrobot.md" },
         { text: "内置浏览器", icon: "compass", link: "browser.md" },
         { text: "视频通话", icon: "video", link: "video-call.md" },
+        { text: "主题皮肤", icon: "palette", link: "theme.md" },
         { text: "简介排版", icon: "file-signature", link: "bio-editor.md" },
         { text: "找群管理员", icon: "user-tie", link: "findadmin.md" },
       ],

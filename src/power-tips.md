@@ -505,5 +505,6 @@ Telegram 的草稿功能支持**多设备同步**：
 - [搜索技巧大全](./search.md) — 高级搜索方法
 - [隐私设置](./privacy.md) — 隐私保护基础
 - [高级隐私指南](./topics/privacy-advanced.md) — 匿名号码与身份隔离
+- [主题皮肤与外观完全指南](./theme.md) — 自动夜间模式、OLED 纯黑与壁纸动效
 - [主题美化进阶](./theme-advanced.md) — 自定义客户端外观
 - [频道运营全攻略](./createchannel.md) — 频道从零到一
