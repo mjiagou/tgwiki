@@ -2,6 +2,7 @@
 home: true
 icon: home
 title: 电报宝典
+description: 电报宝典（TGwiki）是由 ygjc.cc 打造的高质量 Telegram 中文知识库与全方位使用指南。提供电报下载安装、账号注册、汉化中文语言包、解除+86私聊限制、验证码收不到解决方案、频道群组与机器人推荐等全套教程。
 heroImage: /assets/icon/logo.svg
 heroImageDark: /assets/icon/logo2.svg
 bgImage: /assets/image/0-light.svg

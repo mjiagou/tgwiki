@@ -21,7 +21,6 @@ import urllib.error
 SRC_DIR = "src"
 KEY = "4A563D1939640309CA93D410CA082D71"
 HOSTS = [
-    "wiki.tgnav.org",
     "tg.ygjc.cc"
 ]
 

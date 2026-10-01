@@ -51,6 +51,12 @@ export default sidebar({
           prefix: "automation/",
           children: "structure", // 自动读取 topics/automation/ 下的文章
         },
+        {
+          text: "创作者与商业变现",
+          icon: "sack-dollar",
+          prefix: "creator/",
+          children: "structure", // 自动读取 topics/creator/ 下的文章
+        },
       ],
     },
     
@@ -87,6 +93,7 @@ export default sidebar({
         { text: "简介排版", icon: "file-signature", link: "bio-editor.md" },
         { text: "找群管理员", icon: "user-tie", link: "findadmin.md" },
         { text: "归档与降噪", icon: "box-archive", link: "archive.md" },
+        { text: "发起投票", icon: "square-check", link: "poll.md" },
       ],
     },
 

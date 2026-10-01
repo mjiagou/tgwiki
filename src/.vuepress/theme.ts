@@ -121,25 +121,40 @@ export default hopeTheme({
     icon: {
       assets: "fontawesome-with-brands",
     },
-    // notice: [
-    //  {
-    //    path: "/",
-    //    title: "TGwiki已更新",
-    //    content: "我们更新了文档内容并启用了新域名：wiki.tgnav.org。<br/>TGwiki维护需要巨大成本，欢迎您在条件允许范围内赞助我们。",
-    //    actions: [
-    //      {
-    //        text: "赞助我们",
-    //        type: "primary",
-    //        link: "https://tgnav.github.io/donate/",
-    //      },
-    //      {
-    //       text: "关注Twitter",
-    //       type: "default",
-    //        link: "https://www.twitter.com/TGNAVteam",
-    //      },
-    //   ],
-    //  },
-    // ],
+    // SEO 与 结构化数据优化
+    seo: {
+      canonical: "https://tg.ygjc.cc",
+      fallBackImage: "https://tg.ygjc.cc/assets/og-image.png",
+      twitterID: "hasenbalg673018",
+      ogp: (ogp) => {
+        ogp["og:site_name"] = "电报宝典 | Telegram电报中文知识库";
+        return ogp;
+      },
+      jsonLd: (jsonLD, page) => {
+        if (jsonLD["@type"] === "Article") {
+          jsonLD.publisher = {
+            "@type": "Organization",
+            name: "电报宝典 | TGwiki",
+            url: "https://tg.ygjc.cc",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://tg.ygjc.cc/assets/logo.png",
+            },
+          };
+          jsonLD.mainEntityOfPage = {
+            "@type": "WebPage",
+            "@id": `https://tg.ygjc.cc${page.path}`,
+          };
+        }
+        return jsonLD;
+      },
+    },
+    // Sitemap 站点地图优化
+    sitemap: {
+      changefreq: "weekly",
+      excludePaths: ["/404.html"],
+    },
+
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     pwa: {

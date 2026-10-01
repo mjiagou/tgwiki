@@ -46,6 +46,10 @@ Telegram 不再只是一个聊天工具，它已经成为一个成熟的内容�
 
 这是 Telegram 官方推出的最核心的变现方式，频道主可以获得频道广告收入的 **50%**。
 
+::: tip 深度实战教程
+想了解广告分成结算算法、千次展示收益预估、Fragment 平台提现与 TON 变现实操全流程，请参阅：[Telegram 50% 广告收益分成与 TON 变现实战指南](./topics/creator/ad-revenue-sharing.md)。
+:::
+
 ### 2.1 申请条件
 
 **必须同时满足：**
@@ -474,6 +478,7 @@ Telegram 变现不是一夜暴富的捷径，而是需要长期投入的事业�
 
 **相关阅读：**
 
+- [Telegram 50% 广告收益分成与 TON 变现实战指南](./topics/creator/ad-revenue-sharing.md) — 50%分成门槛、提现结算与合规全流程
 - [Telegram Stars 星币完全指南](./stars.md) — 星币充值、使用与提现
 - [Fragment 交易平台](./fragment.md) — 域名交易与 TON 兑换
 - [Telegram 广告平台](https://ads.telegram.org/) — 官方广告投放

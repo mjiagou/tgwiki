@@ -432,6 +432,7 @@ Boost 机制完整解析 → 参考 [频道助推教程](./boost.md)
 - [频道变现指南](./monetization.md) — 频道怎么赚钱
 - [频道助推教程](./boost.md) — Boost 等级与权益
 - [频道评论功能](./comment.md) — 开启评论互动
+- [投票与互动测验指南](./poll.md) — 发起匿名调研与 Quiz 答题竞赛促活
 - [创建群组教程](./creategroup.md) — 搭配群组做社群
 - [引流与推广指南](./promotion.md) — 频道/群组拉新与 SEO 实战
 - [防搬运与版权保护指南](./copyright-protection.md) — 限制保存、零宽字符水印与 DMCA 投诉
