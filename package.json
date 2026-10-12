@@ -12,7 +12,8 @@
     "docs:dev": "vuepress-vite dev src",
     "docs:update-package": "pnpm dlx vp-update",
     "check:links": "python3 scripts/check-links.py",
-    "submit:indexnow": "python3 scripts/submit-indexnow.py"
+    "submit:indexnow": "python3 scripts/submit-indexnow.py",
+    "generate:og": "python3 scripts/generate_article_og_images.py"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",

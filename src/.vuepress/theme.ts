@@ -126,8 +126,28 @@ export default hopeTheme({
       canonical: "https://tg.ygjc.cc",
       fallBackImage: "https://tg.ygjc.cc/assets/og-image.png",
       twitterID: "hasenbalg673018",
-      ogp: (ogp) => {
+      ogp: (ogp, page) => {
         ogp["og:site_name"] = "电报宝典 | Telegram电报中文知识库";
+
+        // 核心高权重文章独立专属 OG 配图映射
+        const coreOgMap: Record<string, string> = {
+          "/guide.html": "https://tg.ygjc.cc/assets/og/og-guide.png",
+          "/language.html": "https://tg.ygjc.cc/assets/og/og-language.png",
+          "/faq.html": "https://tg.ygjc.cc/assets/og/og-faq.png",
+          "/notcomesms.html": "https://tg.ygjc.cc/assets/og/og-notcomesms.png",
+          "/banned.html": "https://tg.ygjc.cc/assets/og/og-banned.png",
+          "/limit.html": "https://tg.ygjc.cc/assets/og/og-limit.png",
+          "/premium.html": "https://tg.ygjc.cc/assets/og/og-premium.png",
+        };
+
+        if (coreOgMap[page.path]) {
+          ogp["og:image"] = coreOgMap[page.path];
+        }
+
+        // 补全 Twitter Card 大图标签
+        ogp["twitter:card"] = "summary_large_image";
+        ogp["twitter:image"] = ogp["og:image"];
+        ogp["twitter:image:alt"] = page.title;
         return ogp;
       },
       jsonLd: (jsonLD, page) => {

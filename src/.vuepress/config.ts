@@ -1,6 +1,9 @@
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "vuepress/utils";
 
 import theme from "./theme.js";
+
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: "/",
@@ -8,10 +11,44 @@ export default defineUserConfig({
   title: 'Telegram电报中文知识库 & 使用指南',
   shouldPrefetch: false,
   description: '电报宝典 | Telegram电报中文知识库 & 使用指南，是一个由 ygjc.cc 打造的高质量 Telegram (电报/纸飞机) 中文知识库。提供从下载安装、账号注册、汉化中文语言包、解除+86私聊限制、收不到验证码解决，到频道群组推荐、机器人开发及会员开通的全方位教程。新手入门 Telegram 的最佳指南。',
+  alias: {
+    "@theme-hope/components/navbar/NavbarBrand": path.resolve(
+      __dirname,
+      "./components/NavbarBrand.vue"
+    ),
+  },
+  extendsMarkdown: (md) => {
+    // 移除 markdown 正文首个重复的 H1 标题，避免与主题 PageTitle 产生双 H1
+    md.core.ruler.push("remove_first_h1", (state) => {
+      const tokens = state.tokens;
+      let firstHeadingOpenIndex = -1;
+      for (let i = 0; i < tokens.length; i++) {
+        if (tokens[i].type === "heading_open") {
+          firstHeadingOpenIndex = i;
+          break;
+        }
+      }
+      if (
+        firstHeadingOpenIndex !== -1 &&
+        tokens[firstHeadingOpenIndex].tag === "h1"
+      ) {
+        let closeIndex = firstHeadingOpenIndex;
+        while (
+          closeIndex < tokens.length &&
+          tokens[closeIndex].type !== "heading_close"
+        ) {
+          closeIndex++;
+        }
+        tokens.splice(
+          firstHeadingOpenIndex,
+          closeIndex - firstHeadingOpenIndex + 1
+        );
+      }
+    });
+  },
   head: [
     ['link', { rel: 'icon', href: '/assets/logo.png' }],
     ['script', { async: true, src: 'https://telegram.org/js/telegram-web-app.js' }],
-    ['meta', { name: 'keywords', content: 'Telegram, 电报, 纸飞机, TG, Telegram中文, Telegram汉化, Telegram下载, Telegram注册, 收不到验证码, 解除双向限制, +86限制, Telegram群组, Telegram频道, Telegram机器人, TGwiki, 隐私设置, 电报会员' }],
 
 [
   'script', 

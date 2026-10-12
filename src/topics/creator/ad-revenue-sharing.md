@@ -166,6 +166,7 @@ Telegram 50% 广告收益分成机制，真正让每一位认真耕耘垂直内�
 
 **相关阅读：**
 
+- [Stars 星币付费频道与内容墙搭建指南](./paid-channel.md) — 按月订阅制私密群与单篇付费媒体变现
 - [创建公开频道从零到一全攻略](../../createchannel.md) — 抢注公网靓号与千粉冷启动
 - [TON 钱包与资产管理完全指南](../ton/wallet.md) — 创建并保管你的 Tonkeeper 助记词
 - [Fragment 交易平台深度玩法](../../fragment.md) — 匿名号、靓号与 TON 代币生态

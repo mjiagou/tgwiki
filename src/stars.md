@@ -204,6 +204,7 @@ sequenceDiagram
 
 **相关阅读：**
 
+- [Stars 付费频道与内容墙搭建实战指南](./topics/creator/paid-channel.md) — 按月订阅制私密群与单篇付费媒体变现
 - [Fragment 交易平台完全指南](./fragment.md) — 靓号交易、+888 匿名号与 Stars 提现
 - [频道变现完全指南](./monetization.md) — 广告分成、付费订阅与全方位变现
 - [API 开发者入门](./api-intro.md) — Bot API 接口与发票支付
