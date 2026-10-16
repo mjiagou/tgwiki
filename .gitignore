@@ -12,3 +12,4 @@ src/.DS_Store
 .github
 .pnpm-store
 scripts
+.vscode
