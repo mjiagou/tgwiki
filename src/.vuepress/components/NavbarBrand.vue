@@ -3,6 +3,8 @@ import { computed } from "vue";
 import { RouteLink, withBase } from "vuepress/client";
 import { useData } from "vuepress-theme-hope/client";
 
+import "vuepress-theme-hope/styles/navbar/navbar-brand.scss";
+
 const { routeLocale, siteLocale, themeLocale } = useData();
 
 const siteBrandLink = computed(

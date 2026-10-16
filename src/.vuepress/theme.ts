@@ -57,6 +57,8 @@ export default hopeTheme({
                 attrs: { type: "tip" },
                 content: "Recommended",
               };
+
+            return undefined;
           },
         },
       ],
@@ -145,9 +147,11 @@ export default hopeTheme({
         }
 
         // 补全 Twitter Card 大图标签
-        ogp["twitter:card"] = "summary_large_image";
-        ogp["twitter:image"] = ogp["og:image"];
-        ogp["twitter:image:alt"] = page.title;
+        Object.assign(ogp, {
+          "twitter:card": "summary_large_image",
+          "twitter:image": ogp["og:image"],
+          "twitter:image:alt": page.title,
+        });
         return ogp;
       },
       jsonLd: (jsonLD, page) => {
