@@ -16,10 +16,10 @@ const ads: AdItem[] = [
     icon: "/logo/logo_png_under.png",
   },
   {
-    name: "闪跃机场",
-    desc: "全场套餐 8折优惠码: shanyue",
-    link: "https://y-m.top/go/shanyue",
-    icon: "/logo/lightspeed_logo.webp",
+    name: "AnDy Cloud",
+    desc: "5元/100GB，全场套餐 8折优惠码: ergs25",
+    link: "https://dr.andygg.com",
+    icon: "/logo/andycloudflogo.png",
   },
   {
     name: "星岛梦",
