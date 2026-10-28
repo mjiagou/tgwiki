@@ -64,6 +64,7 @@ Telegram 作为一款功能强大的即时通讯软件，以其高度加密、�
 如果您有任何问题、建议或合作意向，欢迎通过以下方式联系我们：
 
 - 主站：[ygjc.cc](https://ygjc.cc/)
+- 官方 Telegram 频道：[@tgbaodian](https://t.me/tgbaodian)
 - GitHub：[mjiagou/tgwiki](https://github.com/mjiagou/tgwiki)
 - X (Twitter)：[@hasenbalg673018](https://x.com/hasenbalg673018)
 

@@ -15,6 +15,8 @@ tag:
 
 欢迎使用TGwiki！TGwiki是Telegram Wiki的缩写，汇集了Telegram的使用说明，旨在帮助用户更全面地了解Telegram的各种功能。本页是TGwiki的文档指南，向你介绍一些文档的使用技巧。
 
+📢 **欢迎加入电报宝典官方频道**：[@tgbaodian](https://t.me/tgbaodian) —— 第一时间获取 Telegram 最新动态、实用技巧与防封指南！
+
 知识库由人为编写，难免存在一些疏漏。如果您发现了一些问题，欢迎进行补充、修改（流程见本页下方的“文档维护”），我们将不胜感激！
 
 ::: tip

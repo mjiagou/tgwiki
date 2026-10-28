@@ -184,6 +184,11 @@ export default navbar([
         link: "/about.html"
       },
       {
+        text: "官方频道 (@tgbaodian)",
+        icon: "brands fa-telegram",
+        link: "https://t.me/tgbaodian"
+      },
+      {
         text: "关注 X (Twitter)",
         icon: "brands fa-x-twitter",
         link: "https://x.com/hasenbalg673018"

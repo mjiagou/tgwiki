@@ -27,6 +27,9 @@ actions:
   - text: 常见问题
     icon: circle-question
     link: ./faq.html
+  - text: 加入官方频道
+    icon: brands fa-telegram
+    link: https://t.me/tgbaodian
 
 footer: Copyright © 2025 <a href="https://github.com/mjiagou/tgwiki" target="_blank">TGwiki</a> | Powered by <a href="https://ygjc.cc/" target="_blank">ygjc.cc</a>
 ---
@@ -145,7 +148,7 @@ Telegram 以其高度加密、无审查、跨平台同步等特性受到全球�
 
 ::: tip 提示
 
-本站内容持续更新中，如果你发现有错误或想要补充内容，欢迎通过 GitHub 参与贡献。
+欢迎加入电报宝典官方 Telegram 频道 [@tgbaodian](https://t.me/tgbaodian)，第一时间获取最新教程、实用技巧与防封资讯。本站内容持续更新中，如果你发现有错误或想要补充内容，也欢迎通过 GitHub 参与贡献。
 
 :::
 
