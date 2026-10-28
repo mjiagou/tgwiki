@@ -22,10 +22,10 @@ const ads: AdItem[] = [
     icon: "/logo/andycloudflogo.png",
   },
   {
-    name: "星岛梦",
-    desc: "IEPL高速专线 9折: nmw888",
-    link: "https://y-m.top/go/xdm",
-    icon: "/logo/xdm_logo.webp",
+    name: "杏花云",
+    desc: "3元200GB,6元500GB，稳定线路，支持主流 AI 不限速",
+    link: "https://dr.xinghuatg.com",
+    icon: "/logo/xinghuayun.png",
   },
 
 ];
